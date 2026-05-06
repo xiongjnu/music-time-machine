@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "slots": {
     "1975-western-rock": {
       "era": "1975",
@@ -18,7 +18,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 10
         },
         {
           "id": "1318509823",
@@ -31,7 +32,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "29719536",
@@ -44,7 +46,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 10
         },
         {
           "id": "4237923",
@@ -57,7 +60,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "16657649",
@@ -70,7 +74,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "20506679",
@@ -83,7 +88,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "21052194",
@@ -96,7 +102,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "20506664",
@@ -109,7 +116,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "1312435016",
@@ -122,7 +130,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "16657645",
@@ -135,7 +144,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         }
       ],
       "reserve": [
@@ -150,7 +160,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "1312435016",
@@ -163,7 +174,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "16657645",
@@ -176,7 +188,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         }
       ]
     },
@@ -196,7 +209,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "3880210",
@@ -209,7 +223,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "21613034",
@@ -222,7 +237,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "3952752",
@@ -235,7 +251,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "17550649",
@@ -248,7 +265,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "1216195",
@@ -261,7 +279,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "21598315",
@@ -274,7 +293,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "4336098",
@@ -287,7 +307,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "17550707",
@@ -300,7 +321,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "16495634",
@@ -313,7 +335,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -328,7 +351,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "17550707",
@@ -341,7 +365,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "16495634",
@@ -354,7 +379,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -374,7 +400,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "172455",
@@ -387,7 +414,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "220290",
@@ -400,7 +428,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2651537513",
@@ -413,7 +442,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "311645",
@@ -426,7 +456,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "25638765",
@@ -439,7 +470,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "171530",
@@ -452,7 +484,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "313704",
@@ -465,7 +498,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "25640679",
@@ -478,7 +512,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "28282396",
@@ -491,7 +526,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -506,7 +542,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "25640679",
@@ -519,7 +556,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "28282396",
@@ -532,7 +570,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -552,7 +591,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "1482113923",
@@ -565,7 +605,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 10
         },
         {
           "id": "3950785",
@@ -578,7 +619,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "19553535",
@@ -591,7 +633,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "26292652",
@@ -604,7 +647,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 9
         },
         {
           "id": "18309786",
@@ -617,7 +661,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 10
         },
         {
           "id": "3880694",
@@ -630,7 +675,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "574922843",
@@ -643,7 +689,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "1482114996",
@@ -656,7 +703,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "22003762",
@@ -669,7 +717,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         }
       ],
       "reserve": [
@@ -684,7 +733,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "1482114996",
@@ -697,7 +747,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         },
         {
           "id": "22003762",
@@ -710,7 +761,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 8
         }
       ]
     },
@@ -730,7 +782,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "1325847072",
@@ -743,7 +796,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "16481347",
@@ -756,7 +810,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "18003388",
@@ -769,7 +824,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "21178260",
@@ -782,7 +838,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "21393066",
@@ -795,7 +852,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "27027944",
@@ -808,7 +866,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1375889742",
@@ -821,7 +880,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "3817527",
@@ -834,7 +894,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "3819770",
@@ -847,7 +908,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         }
       ],
       "reserve": [
@@ -862,7 +924,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "3817527",
@@ -875,7 +938,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "3819770",
@@ -888,7 +952,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         }
       ]
     },
@@ -908,7 +973,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "24312206",
@@ -921,7 +987,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "21716599",
@@ -934,7 +1001,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19608580",
@@ -947,7 +1015,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "23170089",
@@ -960,7 +1029,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22593364",
@@ -973,7 +1043,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "17800676",
@@ -986,7 +1057,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "26716623",
@@ -999,7 +1071,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1367495675",
@@ -1012,7 +1085,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "3802622",
@@ -1025,7 +1099,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1040,7 +1115,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1367495675",
@@ -1053,7 +1129,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "3802622",
@@ -1066,7 +1143,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ]
     },
@@ -1086,7 +1164,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "188489",
@@ -1099,7 +1178,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26608738",
@@ -1112,7 +1192,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "153265",
@@ -1125,7 +1206,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "4871715",
@@ -1138,7 +1220,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "189007",
@@ -1151,7 +1234,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "212233",
@@ -1164,7 +1248,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "65642",
@@ -1177,7 +1262,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5266094",
@@ -1190,7 +1276,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "346075",
@@ -1203,7 +1290,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1218,7 +1306,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5266094",
@@ -1231,7 +1320,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "346075",
@@ -1244,7 +1334,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -1264,7 +1355,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 9
         },
         {
           "id": "23170089",
@@ -1277,7 +1369,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "4341278",
@@ -1290,7 +1383,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19564564",
@@ -1303,7 +1397,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "404419169",
@@ -1316,7 +1411,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19903696",
@@ -1329,7 +1425,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1822638886",
@@ -1342,7 +1439,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "3453134",
@@ -1355,7 +1453,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22553771",
@@ -1368,7 +1467,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "20440194",
@@ -1381,7 +1481,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1396,7 +1497,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22553771",
@@ -1409,7 +1511,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "20440194",
@@ -1422,7 +1525,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ]
     },
@@ -1442,7 +1546,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "405475234",
@@ -1455,7 +1560,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3819770",
@@ -1468,7 +1574,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "3950785",
@@ -1481,7 +1588,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "21177533",
@@ -1494,7 +1602,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1482113923",
@@ -1507,7 +1616,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "3230503",
@@ -1520,7 +1630,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "551450699",
@@ -1533,7 +1644,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26778991",
@@ -1546,7 +1658,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "21680498",
@@ -1559,7 +1672,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1574,7 +1688,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26778991",
@@ -1587,7 +1702,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "21680498",
@@ -1600,7 +1716,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -1620,7 +1737,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3819483",
@@ -1633,7 +1751,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2620825521",
@@ -1646,7 +1765,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "19169661",
@@ -1659,7 +1779,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17586686",
@@ -1672,7 +1793,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1870595",
@@ -1685,7 +1807,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "16835293",
@@ -1698,7 +1821,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17059153",
@@ -1711,7 +1835,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "21917268",
@@ -1724,7 +1849,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17086145",
@@ -1737,7 +1863,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1752,7 +1879,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "21917268",
@@ -1765,7 +1893,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17086145",
@@ -1778,7 +1907,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -1798,7 +1928,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "4226257",
@@ -1811,7 +1942,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "22605222",
@@ -1824,7 +1956,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "1876992407",
@@ -1837,7 +1970,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "21303927",
@@ -1850,7 +1984,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "19074087",
@@ -1863,7 +1998,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "21536238",
@@ -1876,7 +2012,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "17822715",
@@ -1889,7 +2026,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "4330114",
@@ -1902,7 +2040,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "18193297",
@@ -1915,7 +2054,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -1930,7 +2070,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "4330114",
@@ -1943,7 +2084,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "18193297",
@@ -1956,7 +2098,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ]
     },
@@ -1976,7 +2119,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "190449",
@@ -1989,7 +2133,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2066977349",
@@ -2002,7 +2147,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "110740",
@@ -2015,7 +2161,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "89805",
@@ -2028,7 +2175,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "115250",
@@ -2041,7 +2189,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "346576",
@@ -2054,7 +2203,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1357375695",
@@ -2067,7 +2217,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "298880",
@@ -2080,7 +2231,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "212430",
@@ -2093,7 +2245,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -2108,7 +2261,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "298880",
@@ -2121,7 +2275,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "212430",
@@ -2134,7 +2289,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -2154,7 +2310,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "63713",
@@ -2167,7 +2324,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "63628",
@@ -2180,7 +2338,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "357279",
@@ -2193,7 +2352,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "357263",
@@ -2206,7 +2366,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "381920",
@@ -2219,7 +2380,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "5274511",
@@ -2232,7 +2394,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "5282450",
@@ -2245,7 +2408,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "167901",
@@ -2258,7 +2422,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "186842",
@@ -2271,7 +2436,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -2286,7 +2452,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "167901",
@@ -2299,7 +2466,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "186842",
@@ -2312,7 +2480,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ]
     },
@@ -2332,7 +2501,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "20065049",
@@ -2345,7 +2515,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "17540855",
@@ -2358,7 +2529,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "5054749",
@@ -2371,7 +2543,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "4021250",
@@ -2384,7 +2557,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "2014746627",
@@ -2397,7 +2571,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "3561019",
@@ -2410,7 +2585,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "16835833",
@@ -2423,7 +2599,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "21280016",
@@ -2436,7 +2613,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -2451,7 +2629,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "16835833",
@@ -2464,7 +2643,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "21280016",
@@ -2477,7 +2657,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ]
     },
@@ -2497,7 +2678,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "17052778",
@@ -2510,7 +2692,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "18822065",
@@ -2523,7 +2706,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "18602998",
@@ -2536,7 +2720,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "2642636608",
@@ -2549,7 +2734,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "2014748525",
@@ -2562,7 +2748,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "2014748469",
@@ -2575,7 +2762,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "5183714",
@@ -2588,7 +2776,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "21598317",
@@ -2601,7 +2790,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "2318074",
@@ -2614,7 +2804,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -2629,7 +2820,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "21598317",
@@ -2642,7 +2834,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         },
         {
           "id": "2318074",
@@ -2655,7 +2848,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎻"
+          "genreTag": "🎻",
+          "weight": 5
         }
       ]
     },
@@ -2675,7 +2869,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 10
         },
         {
           "id": "21598315",
@@ -2688,7 +2883,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "17550649",
@@ -2701,7 +2897,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 8
         },
         {
           "id": "22569939",
@@ -2714,7 +2911,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "411885091",
@@ -2727,7 +2925,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "4336117",
@@ -2740,7 +2939,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2132534286",
@@ -2753,7 +2953,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "4338958",
@@ -2766,7 +2967,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1976535975",
@@ -2779,7 +2981,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17385752",
@@ -2792,7 +2995,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -2807,7 +3011,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1976535975",
@@ -2820,7 +3025,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17385752",
@@ -2833,7 +3039,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -2902,7 +3109,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "172455",
@@ -2915,7 +3123,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 9
         },
         {
           "id": "313704",
@@ -2928,7 +3137,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1868437031",
@@ -2941,7 +3151,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1459296555",
@@ -2954,7 +3165,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "193760",
@@ -2967,7 +3179,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2688641450",
@@ -2980,7 +3193,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "310686",
@@ -2993,7 +3207,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "73513",
@@ -3006,7 +3221,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5231260",
@@ -3019,7 +3235,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -3034,7 +3251,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "73513",
@@ -3047,7 +3265,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5231260",
@@ -3060,7 +3279,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -3360,7 +3580,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "5058572",
@@ -3373,7 +3594,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "2072279084",
@@ -3386,7 +3608,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "560780790",
@@ -3399,7 +3622,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "567869869",
@@ -3412,7 +3636,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "1434822376",
@@ -3425,7 +3650,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "540069926",
@@ -3438,7 +3664,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "5056805",
@@ -3451,7 +3678,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "29829098",
@@ -3464,7 +3692,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -3479,7 +3708,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "5056805",
@@ -3492,7 +3722,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         },
         {
           "id": "29829098",
@@ -3505,7 +3736,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎼"
+          "genreTag": "🎼",
+          "weight": 5
         }
       ]
     },
@@ -3532,7 +3764,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "22091746",
@@ -3545,7 +3778,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1486507",
@@ -3558,7 +3792,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1649082",
@@ -3571,7 +3806,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "20779188",
@@ -3584,7 +3820,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "20541754",
@@ -3597,7 +3834,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "18208067",
@@ -3610,7 +3848,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1173392",
@@ -3623,7 +3862,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1496064572",
@@ -3636,7 +3876,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "17968675",
@@ -3649,7 +3890,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -3664,7 +3906,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1496064572",
@@ -3677,7 +3920,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "17968675",
@@ -3690,7 +3934,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         }
       ]
     },
@@ -4011,7 +4256,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "2624392401",
@@ -4024,7 +4270,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "18165142",
@@ -4037,7 +4284,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1173229",
@@ -4050,7 +4298,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1384651",
@@ -4063,7 +4312,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1227381",
@@ -4076,7 +4326,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "21693174",
@@ -4089,7 +4340,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "571757390",
@@ -4102,7 +4354,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1485939",
@@ -4115,7 +4368,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "19171546",
@@ -4128,7 +4382,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -4143,7 +4398,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "1485939",
@@ -4156,7 +4412,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         },
         {
           "id": "19171546",
@@ -4169,7 +4426,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎺"
+          "genreTag": "🎺",
+          "weight": 5
         }
       ]
     },
@@ -4308,7 +4566,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "204666",
@@ -4321,7 +4580,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1888076998",
@@ -4334,7 +4594,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "29005019",
@@ -4347,7 +4608,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "285005",
@@ -4360,7 +4622,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "116272",
@@ -4373,7 +4636,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109530",
@@ -4386,7 +4650,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109545",
@@ -4399,7 +4664,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109525",
@@ -4412,7 +4678,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109536",
@@ -4425,7 +4692,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -4440,7 +4708,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109525",
@@ -4453,7 +4722,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "109536",
@@ -4466,7 +4736,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -4661,7 +4932,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "29559708",
@@ -4674,7 +4946,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "3453134",
@@ -4687,7 +4960,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "26850738",
@@ -4700,7 +4974,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "20189494",
@@ -4713,7 +4988,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "2669049228",
@@ -4726,7 +5002,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "3855509",
@@ -4739,7 +5016,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "16761775",
@@ -4752,7 +5030,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "572868391",
@@ -4765,7 +5044,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -4780,7 +5060,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "16761775",
@@ -4793,7 +5074,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "572868391",
@@ -4806,7 +5088,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ]
     },
@@ -4959,7 +5242,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "204666",
@@ -4972,7 +5256,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "487003860",
@@ -4985,7 +5270,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "82914",
@@ -4998,7 +5284,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "82928",
@@ -5011,7 +5298,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5285268",
@@ -5024,7 +5312,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "29005019",
@@ -5037,7 +5326,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "211245",
@@ -5050,7 +5340,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "285005",
@@ -5063,7 +5354,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "108641",
@@ -5076,7 +5368,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -5091,7 +5384,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "285005",
@@ -5104,7 +5398,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "108641",
@@ -5117,7 +5412,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -5186,7 +5482,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17858810",
@@ -5199,7 +5496,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "627563",
@@ -5212,7 +5510,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22821444",
@@ -5225,7 +5524,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22690326",
@@ -5238,7 +5538,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "410654143",
@@ -5251,7 +5552,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "403136148",
@@ -5264,7 +5566,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1454663293",
@@ -5277,7 +5580,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "540931",
@@ -5290,7 +5594,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22786083",
@@ -5303,7 +5608,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -5318,7 +5624,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "540931",
@@ -5331,7 +5638,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22786083",
@@ -5344,7 +5652,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -5483,7 +5792,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "22585534",
@@ -5496,7 +5806,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "27438853",
@@ -5509,7 +5820,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "19375094",
@@ -5522,7 +5834,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "1315168334",
@@ -5535,7 +5848,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "21799569",
@@ -5548,7 +5862,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "3818257",
@@ -5561,7 +5876,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "26345370",
@@ -5574,7 +5890,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "27398094",
@@ -5587,7 +5904,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "18353530",
@@ -5600,7 +5918,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -5615,7 +5934,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "27398094",
@@ -5628,7 +5948,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "18353530",
@@ -5641,7 +5962,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ]
     },
@@ -5780,7 +6102,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "423406145",
@@ -5793,7 +6116,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "188057",
@@ -5806,7 +6130,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5284736",
@@ -5819,7 +6144,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "211220",
@@ -5832,7 +6158,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "211588",
@@ -5845,7 +6172,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "298456",
@@ -5858,7 +6186,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "308518",
@@ -5871,7 +6200,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "308494",
@@ -5884,7 +6214,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "329994",
@@ -5897,7 +6228,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -5912,7 +6244,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "308494",
@@ -5925,7 +6258,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "329994",
@@ -5938,7 +6272,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -6105,7 +6440,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "17822715",
@@ -6118,7 +6454,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "17822769",
@@ -6131,7 +6468,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "22469981",
@@ -6144,7 +6482,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "3951467",
@@ -6157,7 +6496,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "22567646",
@@ -6170,7 +6510,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "22497475",
@@ -6183,7 +6524,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "17832202",
@@ -6196,7 +6538,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "5048565",
@@ -6209,7 +6552,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "19401462",
@@ -6222,7 +6566,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -6237,7 +6582,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "5048565",
@@ -6250,7 +6596,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "19401462",
@@ -6263,7 +6610,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ]
     },
@@ -6290,7 +6638,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2187769",
@@ -6303,7 +6652,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "16501053",
@@ -6316,7 +6666,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1300557185",
@@ -6329,7 +6680,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17059153",
@@ -6342,7 +6694,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2620825521",
@@ -6355,7 +6708,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17586686",
@@ -6368,7 +6722,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1870595",
@@ -6381,7 +6736,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17086145",
@@ -6394,7 +6750,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3405246",
@@ -6407,7 +6764,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -6422,7 +6780,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17086145",
@@ -6435,7 +6794,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3405246",
@@ -6448,7 +6808,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -6468,7 +6829,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21917337",
@@ -6481,7 +6843,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "3557377",
@@ -6494,7 +6857,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "3558230",
@@ -6507,7 +6871,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "2602177777",
@@ -6520,7 +6885,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "32922626",
@@ -6533,7 +6899,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "26910784",
@@ -6546,7 +6913,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "2926297",
@@ -6559,7 +6927,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "451340023",
@@ -6572,7 +6941,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "17543834",
@@ -6585,7 +6955,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -6600,7 +6971,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "451340023",
@@ -6613,7 +6985,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "17543834",
@@ -6626,7 +6999,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         }
       ]
     },
@@ -6646,7 +7020,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19460383",
@@ -6659,7 +7034,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19460377",
@@ -6672,7 +7048,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "2589864",
@@ -6685,7 +7062,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "5056920",
@@ -6698,7 +7076,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "4336641",
@@ -6711,7 +7090,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1967959688",
@@ -6724,7 +7104,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22575474",
@@ -6737,7 +7118,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22356968",
@@ -6750,7 +7132,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1455847338",
@@ -6763,7 +7146,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -6778,7 +7162,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22356968",
@@ -6791,7 +7176,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1455847338",
@@ -6804,7 +7190,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ]
     },
@@ -6859,7 +7246,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "189367",
@@ -6872,7 +7260,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "330265",
@@ -6885,7 +7274,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2109617830",
@@ -6898,7 +7288,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "299950",
@@ -6911,7 +7302,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "300136",
@@ -6924,7 +7316,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "299116",
@@ -6937,7 +7330,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "188432",
@@ -6950,7 +7344,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "216017",
@@ -6963,7 +7358,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "110796",
@@ -6976,7 +7372,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -6991,7 +7388,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "216017",
@@ -7004,7 +7402,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "110796",
@@ -7017,7 +7416,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -7142,7 +7542,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "327522",
@@ -7155,7 +7556,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "327532",
@@ -7168,7 +7570,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "187338",
@@ -7181,7 +7584,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "399342277",
@@ -7194,7 +7598,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1979541246",
@@ -7207,7 +7612,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "190526",
@@ -7220,7 +7626,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "190251",
@@ -7233,7 +7640,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "280175",
@@ -7246,7 +7654,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "144619",
@@ -7259,7 +7668,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -7274,7 +7684,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "280175",
@@ -7287,7 +7698,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "144619",
@@ -7300,7 +7712,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -7355,7 +7768,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "26149700",
@@ -7368,7 +7782,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "22695821",
@@ -7381,7 +7796,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "866334",
@@ -7394,7 +7810,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "778574",
@@ -7407,7 +7824,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "778523",
@@ -7420,7 +7838,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "778359",
@@ -7433,7 +7852,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "866170",
@@ -7446,7 +7866,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -7461,7 +7882,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "778359",
@@ -7474,7 +7896,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         },
         {
           "id": "866170",
@@ -7487,7 +7910,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎸"
+          "genreTag": "🎸",
+          "weight": 5
         }
       ]
     },
@@ -7514,7 +7938,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "667320",
@@ -7527,7 +7952,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2018438678",
@@ -7540,7 +7966,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "611452",
@@ -7553,7 +7980,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "818283",
@@ -7566,7 +7994,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22681492",
@@ -7579,7 +8008,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22681522",
@@ -7592,7 +8022,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1992652862",
@@ -7605,7 +8036,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26121602",
@@ -7618,7 +8050,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "797823",
@@ -7631,7 +8064,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -7646,7 +8080,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26121602",
@@ -7659,7 +8094,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "797823",
@@ -7672,7 +8108,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -7741,7 +8178,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "555967801",
@@ -7754,7 +8192,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5378790",
@@ -7767,7 +8206,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22846718",
@@ -7780,7 +8220,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2611662386",
@@ -7793,7 +8234,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22831137",
@@ -7806,7 +8248,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "27090449",
@@ -7819,7 +8262,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22712107",
@@ -7832,7 +8276,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22839977",
@@ -7845,7 +8290,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22846999",
@@ -7858,7 +8304,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -7873,7 +8320,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22839977",
@@ -7886,7 +8334,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22846999",
@@ -7899,7 +8348,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -7968,7 +8418,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2615549749",
@@ -7981,7 +8432,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3950546",
@@ -7994,7 +8446,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17177324",
@@ -8007,7 +8460,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "16431880",
@@ -8020,7 +8474,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3795680",
@@ -8033,7 +8488,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1313303916",
@@ -8046,7 +8502,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "4049648",
@@ -8059,7 +8516,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "437608898",
@@ -8072,7 +8530,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17177310",
@@ -8085,7 +8544,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -8100,7 +8560,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "437608898",
@@ -8113,7 +8574,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "17177310",
@@ -8126,7 +8588,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -8146,7 +8609,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "16434054",
@@ -8159,7 +8623,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "17239672",
@@ -8172,7 +8637,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "19550016",
@@ -8185,7 +8651,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21974794",
@@ -8198,7 +8665,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21974798",
@@ -8211,7 +8679,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "16434100",
@@ -8224,7 +8693,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21273749",
@@ -8237,7 +8707,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21273704",
@@ -8250,7 +8721,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -8265,7 +8737,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21273749",
@@ -8278,7 +8751,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         },
         {
           "id": "21273704",
@@ -8291,7 +8765,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎶"
+          "genreTag": "🎶",
+          "weight": 5
         }
       ]
     },
@@ -8311,7 +8786,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22515962",
@@ -8324,7 +8800,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1424989975",
@@ -8337,7 +8814,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "3346040799",
@@ -8350,7 +8828,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "2052127875",
@@ -8363,7 +8842,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "2717559203",
@@ -8376,7 +8856,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "19358400",
@@ -8389,7 +8870,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "1884866059",
@@ -8402,7 +8884,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "567073249",
@@ -8415,7 +8898,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22522855",
@@ -8428,7 +8912,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -8443,7 +8928,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "567073249",
@@ -8456,7 +8942,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         },
         {
           "id": "22522855",
@@ -8469,7 +8956,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎹"
+          "genreTag": "🎹",
+          "weight": 5
         }
       ]
     },
@@ -8496,7 +8984,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17572422",
@@ -8509,7 +8998,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "5052317",
@@ -8522,7 +9012,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "16158605",
@@ -8535,7 +9026,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17703803",
@@ -8548,7 +9040,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "21614772",
@@ -8561,7 +9054,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "18969085",
@@ -8574,7 +9068,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "18969136",
@@ -8587,7 +9082,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17703819",
@@ -8600,7 +9096,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17405587",
@@ -8613,7 +9110,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -8628,7 +9126,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17703819",
@@ -8641,7 +9140,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         },
         {
           "id": "17405587",
@@ -8654,7 +9154,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎧"
+          "genreTag": "🎧",
+          "weight": 5
         }
       ]
     },
@@ -8695,7 +9196,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "65766",
@@ -8708,7 +9210,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "65952",
@@ -8721,7 +9224,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "3312508535",
@@ -8734,7 +9238,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "316654",
@@ -8747,7 +9252,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1397663288",
@@ -8760,7 +9266,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "27713963",
@@ -8773,7 +9280,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "5267221",
@@ -8786,7 +9294,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "110840",
@@ -8799,7 +9308,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "191227",
@@ -8812,7 +9322,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -8827,7 +9338,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "110840",
@@ -8840,7 +9352,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "191227",
@@ -8853,7 +9366,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -8922,7 +9436,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "28996926",
@@ -8935,7 +9450,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "139357",
@@ -8948,7 +9464,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "168091",
@@ -8961,7 +9478,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "167728",
@@ -8974,7 +9492,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "356487",
@@ -8987,7 +9506,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "1298435663",
@@ -9000,7 +9520,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "519935280",
@@ -9013,7 +9534,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "108119",
@@ -9026,7 +9548,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "156056",
@@ -9039,7 +9562,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -9054,7 +9578,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "108119",
@@ -9067,7 +9592,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "156056",
@@ -9080,7 +9606,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },
@@ -9261,7 +9788,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "26082036",
@@ -9274,7 +9802,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "28341559",
@@ -9287,7 +9816,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "30854122",
@@ -9300,7 +9830,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "2139602636",
@@ -9313,7 +9844,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22724601",
@@ -9326,7 +9858,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "28912686",
@@ -9339,7 +9872,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22704411",
@@ -9352,7 +9886,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22761945",
@@ -9365,7 +9900,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ],
       "reserve": [
@@ -9380,7 +9916,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22704411",
@@ -9393,7 +9930,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         },
         {
           "id": "22761945",
@@ -9406,7 +9944,8 @@
           "duration": 0,
           "isVip": false,
           "coverUrl": "",
-          "genreTag": "🎤"
+          "genreTag": "🎤",
+          "weight": 5
         }
       ]
     },

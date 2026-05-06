@@ -32,6 +32,7 @@ async function fillSlot(slotKey, definitions, genre) {
     if (result) {
       result.year = def.year;
       result.genreTag = genreTag;
+      result.weight = def.weight || 5;
       active.push(result);
       console.log(`  ✅ [${i + 1}/${definitions.length}] ${result.id}  ${result.title} — ${result.artist}`);
     } else {

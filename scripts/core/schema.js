@@ -33,7 +33,7 @@ const GENRE_TAGS = {
 };
 
 // 歌曲必填字段
-const REQUIRED_FIELDS = ['id', 'platform', 'title', 'artist', 'genreTag'];
+const REQUIRED_FIELDS = ['id', 'platform', 'title', 'artist', 'genreTag', 'weight'];
 
 module.exports = {
   SLOT_KEY_RE,

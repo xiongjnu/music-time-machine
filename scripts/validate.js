@@ -101,8 +101,11 @@ function checkSongFields(slotKey, location, song, errors) {
   if (song.id && !/^\d+$/.test(song.id)) {
     errors.push(`[${slotKey}] ${location}.id: "${song.id}" 不是纯数字`);
   }
-  if (song.platform && !['netease', 'qqmusic'].includes(song.platform)) {
-    errors.push(`[${slotKey}] ${location}.platform: "${song.platform}" 无效`);
+  if (song.platform && !['netease'].includes(song.platform)) {
+    errors.push(`[${slotKey}] ${location}.platform: "${song.platform}" 无效（仅支持 netease）`);
+  }
+  if (typeof song.weight !== 'number' || song.weight < 1 || song.weight > 10) {
+    errors.push(`[${slotKey}] ${location}.weight: "${song.weight}" 无效（需为1-10的数字）`);
   }
 }
 
