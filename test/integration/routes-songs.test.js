@@ -44,13 +44,6 @@ describe('Routes — Songs', () => {
     assert.strictEqual(res.body.data.songs.length, 2);
   });
 
-  it('filters by year when provided', async () => {
-    const res = await request(app).get('/api/songs?era=1990&region=western&genre=rock&year=1990');
-    assert.strictEqual(res.status, 200);
-    assert.strictEqual(res.body.data.songs.length, 1);
-    assert.strictEqual(res.body.data.songs[0].year, 1990);
-  });
-
   it('handles mix genre', async () => {
     const res = await request(app).get('/api/songs?era=1990&region=western&genre=mix');
     assert.strictEqual(res.status, 200);

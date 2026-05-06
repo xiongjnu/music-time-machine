@@ -12,7 +12,6 @@
     genre: 'mix',
     songs: [],
     currentSong: null,
-    year: null,
     isPlaying: false,
     isLoggedIn: false,
     profile: null,
@@ -24,7 +23,7 @@
   let $loginPage, $mainPage, $qrImg, $qrStatus, $slider, $eraLabel;
   let $regions, $genres, $songList, $progressBar, $progressFill, $timeCurrent, $timeDuration;
   let $volSlider, $btnPrev, $btnNext, $btnPlay, $btnLogout, $userInfo;
-  let $songTitle, $songArtist, $yearSelector;
+  let $songTitle, $songArtist;
 
   const player = new Player();
   let tunnel;
@@ -94,7 +93,6 @@
     $qrStatus = document.getElementById('qr-status');
     $slider = document.getElementById('era-slider');
     $eraLabel = document.getElementById('era-label');
-    $yearSelector = document.getElementById('year-selector');
     $regions = document.getElementById('regions');
     $genres = document.getElementById('genres');
     $songList = document.getElementById('song-list');
@@ -116,7 +114,6 @@
     $slider.addEventListener('input', onSliderChange);
     $regions.addEventListener('click', onRegionClick);
     $genres.addEventListener('click', onGenreClick);
-    $yearSelector.addEventListener('click', onYearClick);
     $songList.addEventListener('click', onSongClick);
     $progressBar.addEventListener('click', onProgressClick);
     $volSlider.addEventListener('input', onVolumeChange);
@@ -139,7 +136,6 @@
     if (state.profile) {
       $userInfo.textContent = state.profile.nickname || '已登录';
     }
-    renderYearButtons(state.era);
     loadSongs();
   }
 
@@ -221,7 +217,6 @@
 
   async function loadSongs() {
     const params = new URLSearchParams({ era: state.era, region: state.region, genre: state.genre });
-    if (state.year) params.set('year', state.year);
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
         const res = await fetch(`/api/songs?${params}`);
@@ -269,7 +264,6 @@
     state.era = $slider.value;
     setEraUI(state.era);
     tunnel.setEra(state.era);
-    renderYearButtons(state.era);
     loadSongs();
   }
 
@@ -281,33 +275,6 @@
       '1990': '#1A237E', '1995': '#90CAF9', '2000': '#F5F5F5',
     };
     document.documentElement.style.setProperty('--era-primary', colors[era] || '#C62828');
-  }
-
-  // ── 年份二级选择器 ──
-  function renderYearButtons(era) {
-    const base = parseInt(era, 10);
-    $yearSelector.innerHTML = '';
-    for (let y = base; y < base + 5; y++) {
-      const btn = document.createElement('button');
-      btn.className = 'year-btn';
-      btn.textContent = y;
-      btn.dataset.year = y;
-      if (state.year === y || (state.year === null && y === base)) {
-        btn.classList.add('active');
-        state.year = y;
-      }
-      $yearSelector.appendChild(btn);
-    }
-    $yearSelector.style.display = 'flex';
-  }
-
-  function onYearClick(e) {
-    const btn = e.target.closest('.year-btn');
-    if (!btn) return;
-    state.year = parseInt(btn.dataset.year, 10);
-    $yearSelector.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    loadSongs();
   }
 
   // ── 地区/风格 ──

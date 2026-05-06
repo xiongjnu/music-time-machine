@@ -125,22 +125,6 @@ input[type="range"]::-webkit-slider-thumb {
   color: var(--text-primary); box-shadow: 0 0 12px rgba(198,40,40,0.3);
 }
 
-/* Year Selector */
-.year-selector {
-  display: flex; gap: 6px; justify-content: center; margin-bottom: 14px;
-}
-.year-btn {
-  padding: 4px 12px; border-radius: 14px;
-  background: var(--panel-bg); border: 1px solid rgba(255,255,255,0.08);
-  color: var(--text-secondary); cursor: pointer; font-size: 12px;
-  transition: var(--transition);
-}
-.year-btn:hover { border-color: rgba(255,255,255,0.2); }
-.year-btn.active {
-  border-color: var(--era-primary); color: var(--era-primary);
-  box-shadow: 0 0 8px color-mix(in srgb, var(--era-primary) 30%, transparent);
-}
-
 /* Genre Chips */
 .genre-chips { display: flex; gap: 8px; flex-wrap: wrap; }
 .genre-chip {
