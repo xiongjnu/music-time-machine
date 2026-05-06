@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  musictm:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    volumes:
+      - ./data/songs.json:/app/data/songs.json:ro
