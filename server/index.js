@@ -37,6 +37,7 @@ async function createApp({ adapter, curator, cache } = {}) {
   app.use('/api/auth', require('./routes/auth')(netease));
   app.use('/api/songs', require('./routes/songs')(cur));
   app.use('/api/play', require('./routes/play')(netease, cch));
+  app.use('/api/lyric', require('./routes/lyric')(netease, cch));
   app.use('/api', require('./routes/meta'));
 
   // 前端错误上报

@@ -1,109 +1,5 @@
 {
-  "1975-western-rock": [
-    {
-      "title": "Bohemian Rhapsody",
-      "artist": "Queen",
-      "year": 1975
-    },
-    {
-      "title": "Hotel California",
-      "artist": "Eagles",
-      "year": 1976
-    },
-    {
-      "title": "Stairway to Heaven",
-      "artist": "Led Zeppelin",
-      "year": 1971
-    },
-    {
-      "title": "Wish You Were Here",
-      "artist": "Pink Floyd",
-      "year": 1975
-    },
-    {
-      "title": "Born to Run",
-      "artist": "Bruce Springsteen",
-      "year": 1975
-    },
-    {
-      "title": "Dream On",
-      "artist": "Aerosmith",
-      "year": 1973
-    },
-    {
-      "title": "Free Bird",
-      "artist": "Lynyrd Skynyrd",
-      "year": 1973
-    },
-    {
-      "title": "Sweet Emotion",
-      "artist": "Aerosmith",
-      "year": 1975
-    },
-    {
-      "title": "Kashmir",
-      "artist": "Led Zeppelin",
-      "year": 1975
-    },
-    {
-      "title": "Thunder Road",
-      "artist": "Bruce Springsteen",
-      "year": 1975
-    }
-  ],
-  "1975-western-pop": [
-    {
-      "title": "Imagine",
-      "artist": "John Lennon",
-      "year": 1971
-    },
-    {
-      "title": "Dancing Queen",
-      "artist": "ABBA",
-      "year": 1976
-    },
-    {
-      "title": "Superstition",
-      "artist": "Stevie Wonder",
-      "year": 1972
-    },
-    {
-      "title": "Stayin' Alive",
-      "artist": "Bee Gees",
-      "year": 1977
-    },
-    {
-      "title": "Your Song",
-      "artist": "Elton John",
-      "year": 1970
-    },
-    {
-      "title": "American Pie",
-      "artist": "Don McLean",
-      "year": 1971
-    },
-    {
-      "title": "Bridge Over Troubled Water",
-      "artist": "Simon & Garfunkel",
-      "year": 1970
-    },
-    {
-      "title": "Let It Be",
-      "artist": "The Beatles",
-      "year": 1970
-    },
-    {
-      "title": "Rocket Man",
-      "artist": "Elton John",
-      "year": 1972
-    },
-    {
-      "title": "Mamma Mia",
-      "artist": "ABBA",
-      "year": 1975
-    }
-  ],
-  "1975-hk-pop": [
+  "1970-hk-pop": [
     {
       "title": "半斤八两",
       "artist": "许冠杰",
@@ -153,630 +49,93 @@
       "title": "鲜花满月楼",
       "artist": "张德兰",
       "year": 1976
+    },
+    {
+      "title": "鬼马双星",
+      "artist": "许冠杰",
+      "year": 1974
+    },
+    {
+      "title": "相思泪",
+      "artist": "丽莎",
+      "year": 1972
+    },
+    {
+      "title": "爱你三百六十年",
+      "artist": "郑少秋",
+      "year": 1972
+    },
+    {
+      "title": "倚天屠龙记",
+      "artist": "郑少秋",
+      "year": 1978
+    },
+    {
+      "title": "天涯歌女",
+      "artist": "徐小凤",
+      "year": 1970
+    },
+    {
+      "title": "分飞燕",
+      "artist": "陈浩德",
+      "year": 1973
+    },
+    {
+      "title": "难忘的初恋情人",
+      "artist": "丽莎",
+      "year": 1972
     }
   ],
-  "1980-western-rock": [
+  "1970-western-classical": [
     {
-      "title": "Back in Black",
-      "artist": "AC/DC",
-      "year": 1980
+      "title": "Symphony No. 5 in C minor",
+      "artist": "Ludwig van Beethoven",
+      "year": 1808
     },
     {
-      "title": "Sweet Child O' Mine",
-      "artist": "Guns N' Roses",
-      "year": 1987
+      "title": "Eine kleine Nachtmusik",
+      "artist": "Wolfgang Amadeus Mozart",
+      "year": 1787
     },
     {
-      "title": "Livin' on a Prayer",
-      "artist": "Bon Jovi",
-      "year": 1986
+      "title": "The Four Seasons Spring",
+      "artist": "Antonio Vivaldi",
+      "year": 1725
     },
     {
-      "title": "Every Breath You Take",
-      "artist": "The Police",
-      "year": 1983
+      "title": "Canon in D",
+      "artist": "Johann Pachelbel",
+      "year": 1680
     },
     {
-      "title": "With or Without You",
-      "artist": "U2",
-      "year": 1987
+      "title": "Ride of the Valkyries",
+      "artist": "Richard Wagner",
+      "year": 1856
     },
     {
-      "title": "Another Brick in the Wall",
-      "artist": "Pink Floyd",
-      "year": 1979
+      "title": "Clair de Lune",
+      "artist": "Claude Debussy",
+      "year": 1905
     },
     {
-      "title": "You Shook Me All Night Long",
-      "artist": "AC/DC",
-      "year": 1980
+      "title": "Boléro",
+      "artist": "Maurice Ravel",
+      "year": 1928
     },
     {
-      "title": "Welcome to the Jungle",
-      "artist": "Guns N' Roses",
-      "year": 1987
+      "title": "Also sprach Zarathustra",
+      "artist": "Richard Strauss",
+      "year": 1896
     },
     {
-      "title": "Paradise City",
-      "artist": "Guns N' Roses",
-      "year": 1987
+      "title": "The Blue Danube",
+      "artist": "Johann Strauss II",
+      "year": 1867
     },
     {
-      "title": "Sunday Bloody Sunday",
-      "artist": "U2",
-      "year": 1983
-    }
-  ],
-  "1980-western-pop": [
-    {
-      "title": "Billie Jean",
-      "artist": "Michael Jackson",
-      "year": 1982
-    },
-    {
-      "title": "Like a Virgin",
-      "artist": "Madonna",
-      "year": 1984
-    },
-    {
-      "title": "Take On Me",
-      "artist": "a-ha",
-      "year": 1985
-    },
-    {
-      "title": "Careless Whisper",
-      "artist": "George Michael",
-      "year": 1984
-    },
-    {
-      "title": "Thriller",
-      "artist": "Michael Jackson",
-      "year": 1982
-    },
-    {
-      "title": "Purple Rain",
-      "artist": "Prince",
-      "year": 1984
-    },
-    {
-      "title": "Beat It",
-      "artist": "Michael Jackson",
-      "year": 1982
-    },
-    {
-      "title": "Material Girl",
-      "artist": "Madonna",
-      "year": 1984
-    },
-    {
-      "title": "Wake Me Up Before You Go-Go",
-      "artist": "Wham!",
-      "year": 1984
-    },
-    {
-      "title": "I Wanna Dance with Somebody",
-      "artist": "Whitney Houston",
-      "year": 1987
-    }
-  ],
-  "1980-western-electronic": [
-    {
-      "title": "Blue Monday",
-      "artist": "New Order",
-      "year": 1983
-    },
-    {
-      "title": "Sweet Dreams",
-      "artist": "Eurythmics",
-      "year": 1983
-    },
-    {
-      "title": "Tainted Love",
-      "artist": "Soft Cell",
-      "year": 1981
-    },
-    {
-      "title": "Don't You Want Me",
-      "artist": "The Human League",
-      "year": 1981
-    },
-    {
-      "title": "West End Girls",
-      "artist": "Pet Shop Boys",
-      "year": 1984
-    },
-    {
-      "title": "Just Can't Get Enough",
-      "artist": "Depeche Mode",
-      "year": 1981
-    },
-    {
-      "title": "Relax",
-      "artist": "Frankie Goes to Hollywood",
-      "year": 1984
-    },
-    {
-      "title": "Cars",
-      "artist": "Gary Numan",
-      "year": 1979
-    },
-    {
-      "title": "Enjoy the Silence",
-      "artist": "Depeche Mode",
-      "year": 1990
-    },
-    {
-      "title": "Fade to Grey",
-      "artist": "Visage",
-      "year": 1980
-    }
-  ],
-  "1980-hk-pop": [
-    {
-      "title": "Monica",
-      "artist": "张国荣",
-      "year": 1984
-    },
-    {
-      "title": "风继续吹",
-      "artist": "张国荣",
-      "year": 1983
-    },
-    {
-      "title": "漫步人生路",
-      "artist": "邓丽君",
-      "year": 1983
-    },
-    {
-      "title": "爱在深秋",
-      "artist": "谭咏麟",
-      "year": 1984
-    },
-    {
-      "title": "朋友",
-      "artist": "谭咏麟",
-      "year": 1985
-    },
-    {
-      "title": "倩女幽魂",
-      "artist": "张国荣",
-      "year": 1987
-    },
-    {
-      "title": "千千阙歌",
-      "artist": "陈慧娴",
-      "year": 1989
-    },
-    {
-      "title": "一生何求",
-      "artist": "陈百强",
-      "year": 1989
-    },
-    {
-      "title": "再见理想",
-      "artist": "Beyond",
-      "year": 1986
-    },
-    {
-      "title": "真的爱你",
-      "artist": "Beyond",
-      "year": 1989
-    }
-  ],
-  "1985-western-electronic": [
-    {
-      "title": "Take On Me",
-      "artist": "a-ha",
-      "year": 1985
-    },
-    {
-      "title": "West End Girls",
-      "artist": "Pet Shop Boys",
-      "year": 1985
-    },
-    {
-      "title": "Everybody Wants to Rule the World",
-      "artist": "Tears for Fears",
-      "year": 1985
-    },
-    {
-      "title": "Shout",
-      "artist": "Tears for Fears",
-      "year": 1984
-    },
-    {
-      "title": "Smalltown Boy",
-      "artist": "Bronski Beat",
-      "year": 1984
-    },
-    {
-      "title": "Axel F",
-      "artist": "Harold Faltermeyer",
-      "year": 1984
-    },
-    {
-      "title": "Never Gonna Give You Up",
-      "artist": "Rick Astley",
-      "year": 1987
-    },
-    {
-      "title": "Push It",
-      "artist": "Salt-N-Pepa",
-      "year": 1986
-    },
-    {
-      "title": "Big Fun",
-      "artist": "Inner City",
-      "year": 1988
-    },
-    {
-      "title": "Pump Up the Jam",
-      "artist": "Technotronic",
-      "year": 1989
-    }
-  ],
-  "1985-western-pop": [
-    {
-      "title": "Like a Prayer",
-      "artist": "Madonna",
-      "year": 1989
-    },
-    {
-      "title": "Faith",
-      "artist": "George Michael",
-      "year": 1987
-    },
-    {
-      "title": "I Wanna Dance with Somebody",
-      "artist": "Whitney Houston",
-      "year": 1987
-    },
-    {
-      "title": "Livin' on a Prayer",
-      "artist": "Bon Jovi",
-      "year": 1986
-    },
-    {
-      "title": "The Way You Make Me Feel",
-      "artist": "Michael Jackson",
-      "year": 1987
-    },
-    {
-      "title": "Sweet Child O' Mine",
-      "artist": "Guns N' Roses",
-      "year": 1987
-    },
-    {
-      "title": "Every Rose Has Its Thorn",
-      "artist": "Poison",
-      "year": 1988
-    },
-    {
-      "title": "Heaven Is a Place on Earth",
-      "artist": "Belinda Carlisle",
-      "year": 1987
-    },
-    {
-      "title": "Walk Like an Egyptian",
-      "artist": "The Bangles",
-      "year": 1986
-    },
-    {
-      "title": "Nothing's Gonna Stop Us Now",
-      "artist": "Starship",
-      "year": 1987
-    }
-  ],
-  "1990-western-pop": [
-    {
-      "title": "...Baby One More Time",
-      "artist": "Britney Spears",
-      "year": 1998
-    },
-    {
-      "title": "I Will Always Love You",
-      "artist": "Whitney Houston",
-      "year": 1992
-    },
-    {
-      "title": "My Heart Will Go On",
-      "artist": "Celine Dion",
-      "year": 1997
-    },
-    {
-      "title": "Wannabe",
-      "artist": "Spice Girls",
-      "year": 1996
-    },
-    {
-      "title": "Torn",
-      "artist": "Natalie Imbruglia",
-      "year": 1997
-    },
-    {
-      "title": "Angels",
-      "artist": "Robbie Williams",
-      "year": 1997
-    },
-    {
-      "title": "I Want It That Way",
-      "artist": "Backstreet Boys",
-      "year": 1999
-    },
-    {
-      "title": "Genie in a Bottle",
-      "artist": "Christina Aguilera",
-      "year": 1999
-    },
-    {
-      "title": "No Scrubs",
-      "artist": "TLC",
-      "year": 1999
-    },
-    {
-      "title": "Believe",
-      "artist": "Cher",
-      "year": 1998
-    }
-  ],
-  "1990-western-rock": [
-    {
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "year": 1991
-    },
-    {
-      "title": "Wonderwall",
-      "artist": "Oasis",
-      "year": 1995
-    },
-    {
-      "title": "Creep",
-      "artist": "Radiohead",
-      "year": 1992
-    },
-    {
-      "title": "Enter Sandman",
-      "artist": "Metallica",
-      "year": 1991
-    },
-    {
-      "title": "Come as You Are",
-      "artist": "Nirvana",
-      "year": 1991
-    },
-    {
-      "title": "Black Hole Sun",
-      "artist": "Soundgarden",
-      "year": 1994
-    },
-    {
-      "title": "Under the Bridge",
-      "artist": "Red Hot Chili Peppers",
-      "year": 1991
-    },
-    {
-      "title": "Don't Look Back in Anger",
-      "artist": "Oasis",
-      "year": 1995
-    },
-    {
-      "title": "Zombie",
-      "artist": "The Cranberries",
-      "year": 1994
-    },
-    {
-      "title": "Alive",
-      "artist": "Pearl Jam",
-      "year": 1991
-    }
-  ],
-  "1990-hk-pop": [
-    {
-      "title": "每天爱你多一些",
-      "artist": "张学友",
-      "year": 1991
-    },
-    {
-      "title": "吻别",
-      "artist": "张学友",
-      "year": 1993
-    },
-    {
-      "title": "一起走过的日子",
-      "artist": "刘德华",
-      "year": 1991
-    },
-    {
-      "title": "忘情水",
-      "artist": "刘德华",
-      "year": 1994
-    },
-    {
-      "title": "对你爱不完",
-      "artist": "郭富城",
-      "year": 1990
-    },
-    {
-      "title": "今夜你会不会来",
-      "artist": "黎明",
-      "year": 1991
-    },
-    {
-      "title": "光辉岁月",
-      "artist": "Beyond",
-      "year": 1990
-    },
-    {
-      "title": "海阔天空",
-      "artist": "Beyond",
-      "year": 1993
-    },
-    {
-      "title": "容易受伤的女人",
-      "artist": "王菲",
-      "year": 1992
-    },
-    {
-      "title": "飘雪",
-      "artist": "陈慧娴",
-      "year": 1992
-    }
-  ],
-  "1990-mainland-rock": [
-    {
-      "title": "一无所有",
-      "artist": "崔健",
-      "year": 1989
-    },
-    {
-      "title": "花房姑娘",
-      "artist": "崔健",
-      "year": 1989
-    },
-    {
-      "title": "新长征路上的摇滚",
-      "artist": "崔健",
-      "year": 1989
-    },
-    {
-      "title": "无地自容",
-      "artist": "黑豹乐队",
-      "year": 1992
-    },
-    {
-      "title": "Don't Break My Heart",
-      "artist": "黑豹乐队",
-      "year": 1992
-    },
-    {
-      "title": "梦回唐朝",
-      "artist": "唐朝乐队",
-      "year": 1992
-    },
-    {
-      "title": "姑娘漂亮",
-      "artist": "何勇",
-      "year": 1994
-    },
-    {
-      "title": "姐姐",
-      "artist": "张楚",
-      "year": 1994
-    },
-    {
-      "title": "两天",
-      "artist": "许巍",
-      "year": 1994
-    },
-    {
-      "title": "灰姑娘",
-      "artist": "郑钧",
-      "year": 1994
-    }
-  ],
-  "1970-western-rock": [
-    {
-      "title": "Black Sabbath",
-      "artist": "Black Sabbath",
-      "year": 1970
-    },
-    {
-      "title": "Paranoid",
-      "artist": "Black Sabbath",
-      "year": 1970
-    },
-    {
-      "title": "Immigrant Song",
-      "artist": "Led Zeppelin",
-      "year": 1970
-    },
-    {
-      "title": "Layla",
-      "artist": "Derek and the Dominos",
-      "year": 1970
-    },
-    {
-      "title": "All Right Now",
-      "artist": "Free",
-      "year": 1970
-    },
-    {
-      "title": "Child in Time",
-      "artist": "Deep Purple",
-      "year": 1970
-    },
-    {
-      "title": "The Man Who Sold the World",
-      "artist": "David Bowie",
-      "year": 1970
-    },
-    {
-      "title": "Lola",
-      "artist": "The Kinks",
-      "year": 1970
-    },
-    {
-      "title": "War Pigs",
-      "artist": "Black Sabbath",
-      "year": 1970
-    },
-    {
-      "title": "After the Gold Rush",
-      "artist": "Neil Young",
-      "year": 1970
-    }
-  ],
-  "1970-western-pop": [
-    {
-      "title": "Let It Be",
-      "artist": "The Beatles",
-      "year": 1970
-    },
-    {
-      "title": "Bridge Over Troubled Water",
-      "artist": "Simon & Garfunkel",
-      "year": 1970
-    },
-    {
-      "title": "Your Song",
-      "artist": "Elton John",
-      "year": 1970
-    },
-    {
-      "title": "My Sweet Lord",
-      "artist": "George Harrison",
-      "year": 1970
-    },
-    {
-      "title": "Make It with You",
-      "artist": "Bread",
-      "year": 1970
-    },
-    {
-      "title": "The Long and Winding Road",
-      "artist": "The Beatles",
-      "year": 1970
-    },
-    {
-      "title": "Close to You",
-      "artist": "The Carpenters",
-      "year": 1970
-    },
-    {
-      "title": "ABC",
-      "artist": "The Jackson 5",
-      "year": 1970
-    },
-    {
-      "title": "I'll Be There",
-      "artist": "The Jackson 5",
-      "year": 1970
-    },
-    {
-      "title": "Ain't No Mountain High Enough",
-      "artist": "Diana Ross",
-      "year": 1970
+      "title": "Carmina Burana O Fortuna",
+      "artist": "Carl Orff",
+      "year": 1937
     }
   ],
   "1970-western-folk": [
@@ -831,215 +190,1186 @@
       "year": 1982
     }
   ],
-  "1970-hk-pop": [
+  "1970-western-jazz": [
     {
-      "title": "鬼马双星",
-      "artist": "许冠杰",
-      "year": 1974
+      "title": "So What",
+      "artist": "Miles Davis",
+      "year": 1959
     },
     {
-      "title": "铁塔凌云",
-      "artist": "许冠杰",
-      "year": 1974
+      "title": "Take Five",
+      "artist": "Dave Brubeck",
+      "year": 1959
     },
     {
-      "title": "啼笑因缘",
-      "artist": "仙杜拉",
-      "year": 1974
+      "title": "My Favorite Things",
+      "artist": "John Coltrane",
+      "year": 1961
     },
     {
-      "title": "相思泪",
-      "artist": "丽莎",
-      "year": 1972
+      "title": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "year": 1967
     },
     {
-      "title": "爱你三百六十年",
-      "artist": "郑少秋",
-      "year": 1972
+      "title": "Birdland",
+      "artist": "Weather Report",
+      "year": 1977
     },
     {
-      "title": "倚天屠龙记",
-      "artist": "郑少秋",
-      "year": 1978
-    },
-    {
-      "title": "每当变幻时",
-      "artist": "薰妮",
-      "year": 1978
-    },
-    {
-      "title": "天涯歌女",
-      "artist": "徐小凤",
-      "year": 1970
-    },
-    {
-      "title": "分飞燕",
-      "artist": "陈浩德",
+      "title": "Spain",
+      "artist": "Chick Corea",
       "year": 1973
     },
     {
-      "title": "难忘的初恋情人",
-      "artist": "丽莎",
+      "title": "Chameleon",
+      "artist": "Herbie Hancock",
+      "year": 1973
+    },
+    {
+      "title": "Feels So Good",
+      "artist": "Chuck Mangione",
+      "year": 1977
+    },
+    {
+      "title": "Just the Two of Us",
+      "artist": "Grover Washington Jr.",
+      "year": 1981
+    },
+    {
+      "title": "Mister Magic",
+      "artist": "Grover Washington Jr.",
+      "year": 1975
+    }
+  ],
+  "1970-western-pop": [
+    {
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "year": 1971
+    },
+    {
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "year": 1976
+    },
+    {
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
       "year": 1972
+    },
+    {
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "year": 1977
+    },
+    {
+      "title": "Your Song",
+      "artist": "Elton John",
+      "year": 1970
+    },
+    {
+      "title": "American Pie",
+      "artist": "Don McLean",
+      "year": 1971
+    },
+    {
+      "title": "Bridge Over Troubled Water",
+      "artist": "Simon & Garfunkel",
+      "year": 1970
+    },
+    {
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "year": 1970
+    },
+    {
+      "title": "Rocket Man",
+      "artist": "Elton John",
+      "year": 1972
+    },
+    {
+      "title": "Mamma Mia",
+      "artist": "ABBA",
+      "year": 1975
+    },
+    {
+      "title": "My Sweet Lord",
+      "artist": "George Harrison",
+      "year": 1970
+    },
+    {
+      "title": "Make It with You",
+      "artist": "Bread",
+      "year": 1970
+    },
+    {
+      "title": "The Long and Winding Road",
+      "artist": "The Beatles",
+      "year": 1970
+    },
+    {
+      "title": "Close to You",
+      "artist": "The Carpenters",
+      "year": 1970
+    },
+    {
+      "title": "ABC",
+      "artist": "The Jackson 5",
+      "year": 1970
+    },
+    {
+      "title": "I'll Be There",
+      "artist": "The Jackson 5",
+      "year": 1970
+    },
+    {
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Diana Ross",
+      "year": 1970
     }
   ],
-  "1995-western-rock": [
+  "1970-western-rock": [
     {
-      "title": "Wonderwall",
-      "artist": "Oasis",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "year": 1975
+    },
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976
+    },
+    {
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "year": 1971
+    },
+    {
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "year": 1975
+    },
+    {
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "year": 1975
+    },
+    {
+      "title": "Dream On",
+      "artist": "Aerosmith",
+      "year": 1973
+    },
+    {
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1973
+    },
+    {
+      "title": "Sweet Emotion",
+      "artist": "Aerosmith",
+      "year": 1975
+    },
+    {
+      "title": "Kashmir",
+      "artist": "Led Zeppelin",
+      "year": 1975
+    },
+    {
+      "title": "Thunder Road",
+      "artist": "Bruce Springsteen",
+      "year": 1975
+    },
+    {
+      "title": "Black Sabbath",
+      "artist": "Black Sabbath",
+      "year": 1970
+    },
+    {
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "year": 1970
+    },
+    {
+      "title": "Immigrant Song",
+      "artist": "Led Zeppelin",
+      "year": 1970
+    },
+    {
+      "title": "Layla",
+      "artist": "Derek and the Dominos",
+      "year": 1970
+    },
+    {
+      "title": "All Right Now",
+      "artist": "Free",
+      "year": 1970
+    },
+    {
+      "title": "Child in Time",
+      "artist": "Deep Purple",
+      "year": 1970
+    },
+    {
+      "title": "The Man Who Sold the World",
+      "artist": "David Bowie",
+      "year": 1970
+    },
+    {
+      "title": "Lola",
+      "artist": "The Kinks",
+      "year": 1970
+    },
+    {
+      "title": "War Pigs",
+      "artist": "Black Sabbath",
+      "year": 1970
+    },
+    {
+      "title": "After the Gold Rush",
+      "artist": "Neil Young",
+      "year": 1970
+    }
+  ],
+  "1980-hk-pop": [
+    {
+      "title": "Monica",
+      "artist": "张国荣",
+      "year": 1984
+    },
+    {
+      "title": "风继续吹",
+      "artist": "张国荣",
+      "year": 1983
+    },
+    {
+      "title": "漫步人生路",
+      "artist": "邓丽君",
+      "year": 1983
+    },
+    {
+      "title": "爱在深秋",
+      "artist": "谭咏麟",
+      "year": 1984
+    },
+    {
+      "title": "朋友",
+      "artist": "谭咏麟",
+      "year": 1985
+    },
+    {
+      "title": "倩女幽魂",
+      "artist": "张国荣",
+      "year": 1987
+    },
+    {
+      "title": "千千阙歌",
+      "artist": "陈慧娴",
+      "year": 1989
+    },
+    {
+      "title": "一生何求",
+      "artist": "陈百强",
+      "year": 1989
+    },
+    {
+      "title": "再见理想",
+      "artist": "Beyond",
+      "year": 1986
+    },
+    {
+      "title": "真的爱你",
+      "artist": "Beyond",
+      "year": 1989
+    }
+  ],
+  "1980-japan-pop": [
+    {
+      "title": "未来予想図Ⅱ",
+      "artist": "DREAMS COME TRUE",
+      "year": 1989
+    },
+    {
+      "title": "Lemon Tree",
+      "artist": "Fools Garden",
       "year": 1995
     },
     {
-      "title": "Don't Look Back in Anger",
-      "artist": "Oasis",
+      "title": "世界中の誰よりきっと",
+      "artist": "中山美穂",
+      "year": 1992
+    },
+    {
+      "title": "愛は勝つ",
+      "artist": "KAN",
+      "year": 1990
+    },
+    {
+      "title": "SAY YES",
+      "artist": "CHAGE and ASKA",
+      "year": 1991
+    },
+    {
+      "title": "ラブ・ストーリーは突然に",
+      "artist": "小田和正",
+      "year": 1991
+    },
+    {
+      "title": "負けないで",
+      "artist": "ZARD",
+      "year": 1993
+    },
+    {
+      "title": "浪漫飛行",
+      "artist": "米米CLUB",
+      "year": 1990
+    },
+    {
+      "title": "クリスマス・イブ",
+      "artist": "山下達郎",
+      "year": 1983
+    },
+    {
+      "title": "First Love",
+      "artist": "宇多田ヒカル",
+      "year": 1999
+    }
+  ],
+  "1980-taiwan-pop": [
+    {
+      "title": "月亮代表我的心",
+      "artist": "邓丽君",
+      "year": 1977
+    },
+    {
+      "title": "甜蜜蜜",
+      "artist": "邓丽君",
+      "year": 1979
+    },
+    {
+      "title": "小城故事",
+      "artist": "邓丽君",
+      "year": 1979
+    },
+    {
+      "title": "一剪梅",
+      "artist": "费玉清",
+      "year": 1983
+    },
+    {
+      "title": "梦驼铃",
+      "artist": "费玉清",
+      "year": 1984
+    },
+    {
+      "title": "明天会更好",
+      "artist": "群星",
+      "year": 1985
+    },
+    {
+      "title": "恰似你的温柔",
+      "artist": "蔡琴",
+      "year": 1979
+    },
+    {
+      "title": "被遗忘的时光",
+      "artist": "蔡琴",
+      "year": 1979
+    },
+    {
+      "title": "橄榄树",
+      "artist": "齐豫",
+      "year": 1979
+    },
+    {
+      "title": "你的样子",
+      "artist": "罗大佑",
+      "year": 1988
+    },
+    {
+      "title": "我只在乎你",
+      "artist": "邓丽君",
+      "year": 1986
+    },
+    {
+      "title": "龙的传人",
+      "artist": "李建复",
+      "year": 1980
+    },
+    {
+      "title": "童年",
+      "artist": "罗大佑",
+      "year": 1982
+    },
+    {
+      "title": "光阴的故事",
+      "artist": "罗大佑",
+      "year": 1982
+    },
+    {
+      "title": "鹿港小镇",
+      "artist": "罗大佑",
+      "year": 1982
+    },
+    {
+      "title": "之乎者也",
+      "artist": "罗大佑",
+      "year": 1982
+    }
+  ],
+  "1980-western-electronic": [
+    {
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "year": 1983
+    },
+    {
+      "title": "Sweet Dreams",
+      "artist": "Eurythmics",
+      "year": 1983
+    },
+    {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "year": 1981
+    },
+    {
+      "title": "Don't You Want Me",
+      "artist": "The Human League",
+      "year": 1981
+    },
+    {
+      "title": "West End Girls",
+      "artist": "Pet Shop Boys",
+      "year": 1984
+    },
+    {
+      "title": "Just Can't Get Enough",
+      "artist": "Depeche Mode",
+      "year": 1981
+    },
+    {
+      "title": "Relax",
+      "artist": "Frankie Goes to Hollywood",
+      "year": 1984
+    },
+    {
+      "title": "Cars",
+      "artist": "Gary Numan",
+      "year": 1979
+    },
+    {
+      "title": "Enjoy the Silence",
+      "artist": "Depeche Mode",
+      "year": 1990
+    },
+    {
+      "title": "Fade to Grey",
+      "artist": "Visage",
+      "year": 1980
+    },
+    {
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "year": 1985
+    },
+    {
+      "title": "Everybody Wants to Rule the World",
+      "artist": "Tears for Fears",
+      "year": 1985
+    },
+    {
+      "title": "Shout",
+      "artist": "Tears for Fears",
+      "year": 1984
+    },
+    {
+      "title": "Smalltown Boy",
+      "artist": "Bronski Beat",
+      "year": 1984
+    },
+    {
+      "title": "Axel F",
+      "artist": "Harold Faltermeyer",
+      "year": 1984
+    },
+    {
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "year": 1987
+    },
+    {
+      "title": "Push It",
+      "artist": "Salt-N-Pepa",
+      "year": 1986
+    },
+    {
+      "title": "Big Fun",
+      "artist": "Inner City",
+      "year": 1988
+    },
+    {
+      "title": "Pump Up the Jam",
+      "artist": "Technotronic",
+      "year": 1989
+    }
+  ],
+  "1980-western-hiphop": [
+    {
+      "title": "Walk This Way",
+      "artist": "Run-DMC",
+      "year": 1986
+    },
+    {
+      "title": "It's Tricky",
+      "artist": "Run-DMC",
+      "year": 1986
+    },
+    {
+      "title": "Fight the Power",
+      "artist": "Public Enemy",
+      "year": 1989
+    },
+    {
+      "title": "Push It",
+      "artist": "Salt-N-Pepa",
+      "year": 1987
+    },
+    {
+      "title": "Parents Just Don't Understand",
+      "artist": "DJ Jazzy Jeff & The Fresh Prince",
+      "year": 1988
+    },
+    {
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A",
+      "year": 1988
+    },
+    {
+      "title": "Wild Thing",
+      "artist": "Tone Loc",
+      "year": 1988
+    },
+    {
+      "title": "Bust a Move",
+      "artist": "Young MC",
+      "year": 1989
+    },
+    {
+      "title": "My Philosophy",
+      "artist": "Boogie Down Productions",
+      "year": 1988
+    },
+    {
+      "title": "Me Myself and I",
+      "artist": "De La Soul",
+      "year": 1989
+    }
+  ],
+  "1980-western-jazz": [
+    {
+      "title": "Birdland",
+      "artist": "Weather Report",
+      "year": 1977
+    },
+    {
+      "title": "Morning Dance",
+      "artist": "Spyro Gyra",
+      "year": 1979
+    },
+    {
+      "title": "Rise",
+      "artist": "Herb Alpert",
+      "year": 1979
+    },
+    {
+      "title": "Give It All You Got",
+      "artist": "Chuck Mangione",
+      "year": 1980
+    },
+    {
+      "title": "Winelight",
+      "artist": "Grover Washington Jr.",
+      "year": 1980
+    },
+    {
+      "title": "In a Sentimental Mood",
+      "artist": "Duke Ellington",
+      "year": 1987
+    },
+    {
+      "title": "The Girl from Ipanema",
+      "artist": "Stan Getz",
+      "year": 1964
+    },
+    {
+      "title": "Round Midnight",
+      "artist": "Thelonious Monk",
+      "year": 1957
+    },
+    {
+      "title": "A Love Supreme Part 1",
+      "artist": "John Coltrane",
+      "year": 1965
+    },
+    {
+      "title": "Smooth Operator",
+      "artist": "Sade",
+      "year": 1984
+    }
+  ],
+  "1980-western-pop": [
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "year": 1982
+    },
+    {
+      "title": "Like a Virgin",
+      "artist": "Madonna",
+      "year": 1984
+    },
+    {
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "year": 1985
+    },
+    {
+      "title": "Careless Whisper",
+      "artist": "George Michael",
+      "year": 1984
+    },
+    {
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982
+    },
+    {
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "year": 1984
+    },
+    {
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "year": 1982
+    },
+    {
+      "title": "Material Girl",
+      "artist": "Madonna",
+      "year": 1984
+    },
+    {
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "year": 1984
+    },
+    {
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "year": 1987
+    },
+    {
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "year": 1989
+    },
+    {
+      "title": "Faith",
+      "artist": "George Michael",
+      "year": 1987
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986
+    },
+    {
+      "title": "The Way You Make Me Feel",
+      "artist": "Michael Jackson",
+      "year": 1987
+    },
+    {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "year": 1987
+    },
+    {
+      "title": "Every Rose Has Its Thorn",
+      "artist": "Poison",
+      "year": 1988
+    },
+    {
+      "title": "Heaven Is a Place on Earth",
+      "artist": "Belinda Carlisle",
+      "year": 1987
+    },
+    {
+      "title": "Walk Like an Egyptian",
+      "artist": "The Bangles",
+      "year": 1986
+    },
+    {
+      "title": "Nothing's Gonna Stop Us Now",
+      "artist": "Starship",
+      "year": 1987
+    }
+  ],
+  "1980-western-rock": [
+    {
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "year": 1980
+    },
+    {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "year": 1987
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986
+    },
+    {
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "year": 1983
+    },
+    {
+      "title": "With or Without You",
+      "artist": "U2",
+      "year": 1987
+    },
+    {
+      "title": "Another Brick in the Wall",
+      "artist": "Pink Floyd",
+      "year": 1979
+    },
+    {
+      "title": "You Shook Me All Night Long",
+      "artist": "AC/DC",
+      "year": 1980
+    },
+    {
+      "title": "Welcome to the Jungle",
+      "artist": "Guns N' Roses",
+      "year": 1987
+    },
+    {
+      "title": "Paradise City",
+      "artist": "Guns N' Roses",
+      "year": 1987
+    },
+    {
+      "title": "Sunday Bloody Sunday",
+      "artist": "U2",
+      "year": 1983
+    }
+  ],
+  "1990-hk-pop": [
+    {
+      "title": "每天爱你多一些",
+      "artist": "张学友",
+      "year": 1991
+    },
+    {
+      "title": "吻别",
+      "artist": "张学友",
+      "year": 1993
+    },
+    {
+      "title": "一起走过的日子",
+      "artist": "刘德华",
+      "year": 1991
+    },
+    {
+      "title": "忘情水",
+      "artist": "刘德华",
+      "year": 1994
+    },
+    {
+      "title": "对你爱不完",
+      "artist": "郭富城",
+      "year": 1990
+    },
+    {
+      "title": "今夜你会不会来",
+      "artist": "黎明",
+      "year": 1991
+    },
+    {
+      "title": "光辉岁月",
+      "artist": "Beyond",
+      "year": 1990
+    },
+    {
+      "title": "海阔天空",
+      "artist": "Beyond",
+      "year": 1993
+    },
+    {
+      "title": "容易受伤的女人",
+      "artist": "王菲",
+      "year": 1992
+    },
+    {
+      "title": "飘雪",
+      "artist": "陈慧娴",
+      "year": 1992
+    },
+    {
+      "title": "你的名字我的姓氏",
+      "artist": "张学友",
+      "year": 1996
+    },
+    {
+      "title": "舍不得你",
+      "artist": "郑秀文",
       "year": 1995
     },
     {
-      "title": "Champagne Supernova",
-      "artist": "Oasis",
+      "title": "爱与痛的边缘",
+      "artist": "王菲",
       "year": 1995
     },
     {
-      "title": "1979",
-      "artist": "The Smashing Pumpkins",
-      "year": 1995
-    },
-    {
-      "title": "Song 2",
-      "artist": "Blur",
-      "year": 1997
-    },
-    {
-      "title": "Bitter Sweet Symphony",
-      "artist": "The Verve",
-      "year": 1997
-    },
-    {
-      "title": "Karma Police",
-      "artist": "Radiohead",
-      "year": 1997
-    },
-    {
-      "title": "Everlong",
-      "artist": "Foo Fighters",
-      "year": 1997
-    },
-    {
-      "title": "Closing Time",
-      "artist": "Semisonic",
+      "title": "情诫",
+      "artist": "王菲",
       "year": 1998
     },
     {
-      "title": "One Headlight",
-      "artist": "The Wallflowers",
-      "year": 1996
-    }
-  ],
-  "1995-western-pop": [
-    {
-      "title": "Wannabe",
-      "artist": "Spice Girls",
+      "title": "暗涌",
+      "artist": "王菲",
       "year": 1996
     },
     {
-      "title": "...Baby One More Time",
-      "artist": "Britney Spears",
-      "year": 1998
-    },
-    {
-      "title": "Barbie Girl",
-      "artist": "Aqua",
+      "title": "约定",
+      "artist": "王菲",
       "year": 1997
     },
     {
-      "title": "I Want It That Way",
-      "artist": "Backstreet Boys",
+      "title": "如果这都不算爱",
+      "artist": "张学友",
+      "year": 1998
+    },
+    {
+      "title": "风花雪",
+      "artist": "陈慧琳",
+      "year": 1997
+    },
+    {
+      "title": "越吻越伤心",
+      "artist": "苏永康",
+      "year": 1998
+    }
+  ],
+  "1990-japan-pop": [
+    {
+      "title": "First Love",
+      "artist": "宇多田ヒカル",
       "year": 1999
     },
     {
-      "title": "Genie in a Bottle",
-      "artist": "Christina Aguilera",
-      "year": 1999
-    },
-    {
-      "title": "My Heart Will Go On",
-      "artist": "Celine Dion",
-      "year": 1997
-    },
-    {
-      "title": "Torn",
-      "artist": "Natalie Imbruglia",
-      "year": 1997
-    },
-    {
-      "title": "Angels",
-      "artist": "Robbie Williams",
-      "year": 1997
-    },
-    {
-      "title": "Believe",
-      "artist": "Cher",
+      "title": "Automatic",
+      "artist": "宇多田ヒカル",
       "year": 1998
     },
     {
-      "title": "Truly Madly Deeply",
-      "artist": "Savage Garden",
+      "title": "CAN YOU CELEBRATE?",
+      "artist": "安室奈美恵",
       "year": 1997
-    }
-  ],
-  "1995-western-rnb": [
-    {
-      "title": "No Scrubs",
-      "artist": "TLC",
-      "year": 1999
     },
     {
-      "title": "Waterfalls",
-      "artist": "TLC",
+      "title": "Everything",
+      "artist": "MISIA",
+      "year": 2000
+    },
+    {
+      "title": "夜空ノムコウ",
+      "artist": "SMAP",
+      "year": 1998
+    },
+    {
+      "title": "White Love",
+      "artist": "SPEED",
+      "year": 1997
+    },
+    {
+      "title": "Body & Soul",
+      "artist": "SPEED",
+      "year": 1996
+    },
+    {
+      "title": "Love Love Love",
+      "artist": "DREAMS COME TRUE",
       "year": 1995
     },
     {
-      "title": "You're Makin' Me High",
-      "artist": "Toni Braxton",
+      "title": "TOMORROW",
+      "artist": "岡本真夜",
+      "year": 1995
+    },
+    {
+      "title": "アジアの純真",
+      "artist": "PUFFY",
       "year": 1996
-    },
-    {
-      "title": "Un-Break My Heart",
-      "artist": "Toni Braxton",
-      "year": 1996
-    },
-    {
-      "title": "The Boy Is Mine",
-      "artist": "Brandy & Monica",
-      "year": 1998
-    },
-    {
-      "title": "Pony",
-      "artist": "Ginuwine",
-      "year": 1996
-    },
-    {
-      "title": "Killing Me Softly",
-      "artist": "Fugees",
-      "year": 1996
-    },
-    {
-      "title": "Doo Wop (That Thing)",
-      "artist": "Lauryn Hill",
-      "year": 1998
-    },
-    {
-      "title": "Return of the Mack",
-      "artist": "Mark Morrison",
-      "year": 1996
-    },
-    {
-      "title": "Too Close",
-      "artist": "Next",
-      "year": 1997
     }
   ],
-  "1995-western-electronic": [
+  "1990-japan-rock": [
+    {
+      "title": "end roll",
+      "artist": "L'Arc~en~Ciel",
+      "year": 1999
+    },
+    {
+      "title": "Driver's High",
+      "artist": "L'Arc~en~Ciel",
+      "year": 1999
+    },
+    {
+      "title": "誘惑",
+      "artist": "GLAY",
+      "year": 1998
+    },
+    {
+      "title": "Winter again",
+      "artist": "GLAY",
+      "year": 1999
+    },
+    {
+      "title": "HONEY",
+      "artist": "L'Arc~en~Ciel",
+      "year": 1998
+    },
+    {
+      "title": "I for You",
+      "artist": "LUNA SEA",
+      "year": 1998
+    },
+    {
+      "title": "Tomorrow never knows",
+      "artist": "Mr.Children",
+      "year": 1994
+    },
+    {
+      "title": "名もなき詩",
+      "artist": "Mr.Children",
+      "year": 1996
+    },
+    {
+      "title": "終わりなき旅",
+      "artist": "Mr.Children",
+      "year": 1998
+    },
+    {
+      "title": "Rusty Nail",
+      "artist": "X JAPAN",
+      "year": 1994
+    }
+  ],
+  "1990-korea-pop": [
+    {
+      "title": "I'm Your Girl",
+      "artist": "S.E.S.",
+      "year": 1997
+    },
+    {
+      "title": "Dreams Come True",
+      "artist": "S.E.S.",
+      "year": 1998
+    },
+    {
+      "title": "Candy",
+      "artist": "H.O.T.",
+      "year": 1996
+    },
+    {
+      "title": "We Are The Future",
+      "artist": "H.O.T.",
+      "year": 1997
+    },
+    {
+      "title": "To My Boyfriend",
+      "artist": "Fin.K.L",
+      "year": 1998
+    },
+    {
+      "title": "Eternal Love",
+      "artist": "Fin.K.L",
+      "year": 1999
+    },
+    {
+      "title": "T.O.P.",
+      "artist": "神话",
+      "year": 1999
+    },
+    {
+      "title": "Perfect Man",
+      "artist": "神话",
+      "year": 2002
+    },
+    {
+      "title": "Come Back Home",
+      "artist": "서태지와 아이들",
+      "year": 1995
+    },
+    {
+      "title": "No.1",
+      "artist": "BoA",
+      "year": 2002
+    }
+  ],
+  "1990-mainland-rock": [
+    {
+      "title": "一无所有",
+      "artist": "崔健",
+      "year": 1989
+    },
+    {
+      "title": "花房姑娘",
+      "artist": "崔健",
+      "year": 1989
+    },
+    {
+      "title": "新长征路上的摇滚",
+      "artist": "崔健",
+      "year": 1989
+    },
+    {
+      "title": "无地自容",
+      "artist": "黑豹乐队",
+      "year": 1992
+    },
+    {
+      "title": "Don't Break My Heart",
+      "artist": "黑豹乐队",
+      "year": 1992
+    },
+    {
+      "title": "梦回唐朝",
+      "artist": "唐朝乐队",
+      "year": 1992
+    },
+    {
+      "title": "姑娘漂亮",
+      "artist": "何勇",
+      "year": 1994
+    },
+    {
+      "title": "姐姐",
+      "artist": "张楚",
+      "year": 1994
+    },
+    {
+      "title": "两天",
+      "artist": "许巍",
+      "year": 1994
+    },
+    {
+      "title": "灰姑娘",
+      "artist": "郑钧",
+      "year": 1994
+    }
+  ],
+  "1990-taiwan-pop": [
+    {
+      "title": "爱如潮水",
+      "artist": "张信哲",
+      "year": 1993
+    },
+    {
+      "title": "过火",
+      "artist": "张信哲",
+      "year": 1995
+    },
+    {
+      "title": "大海",
+      "artist": "张雨生",
+      "year": 1992
+    },
+    {
+      "title": "我的未来不是梦",
+      "artist": "张雨生",
+      "year": 1988
+    },
+    {
+      "title": "梦醒时分",
+      "artist": "陈淑桦",
+      "year": 1989
+    },
+    {
+      "title": "滚滚红尘",
+      "artist": "陈淑桦",
+      "year": 1990
+    },
+    {
+      "title": "新不了情",
+      "artist": "万芳",
+      "year": 1993
+    },
+    {
+      "title": "领悟",
+      "artist": "辛晓琪",
+      "year": 1994
+    },
+    {
+      "title": "味道",
+      "artist": "辛晓琪",
+      "year": 1994
+    },
+    {
+      "title": "最浪漫的事",
+      "artist": "赵咏华",
+      "year": 1994
+    },
+    {
+      "title": "听海",
+      "artist": "张惠妹",
+      "year": 1997
+    },
+    {
+      "title": "姐妹",
+      "artist": "张惠妹",
+      "year": 1996
+    },
+    {
+      "title": "我可以抱你吗",
+      "artist": "张惠妹",
+      "year": 1999
+    },
+    {
+      "title": "宽容",
+      "artist": "张信哲",
+      "year": 1995
+    },
+    {
+      "title": "城里的月光",
+      "artist": "许美静",
+      "year": 1996
+    },
+    {
+      "title": "都是月亮惹的祸",
+      "artist": "张宇",
+      "year": 1998
+    },
+    {
+      "title": "雨一直下",
+      "artist": "张宇",
+      "year": 1999
+    },
+    {
+      "title": "征服",
+      "artist": "那英",
+      "year": 1998
+    },
+    {
+      "title": "心太软",
+      "artist": "任贤齐",
+      "year": 1996
+    }
+  ],
+  "1990-western-electronic": [
     {
       "title": "Around the World",
       "artist": "Daft Punk",
@@ -1091,56 +1421,522 @@
       "year": 1998
     }
   ],
-  "1995-hk-pop": [
+  "1990-western-hiphop": [
     {
-      "title": "每天爱你多一些",
-      "artist": "张学友",
+      "title": "U Can't Touch This",
+      "artist": "MC Hammer",
+      "year": 1990
+    },
+    {
+      "title": "Ice Ice Baby",
+      "artist": "Vanilla Ice",
+      "year": 1990
+    },
+    {
+      "title": "Nuthin' But a 'G' Thang",
+      "artist": "Dr. Dre",
+      "year": 1992
+    },
+    {
+      "title": "California Love",
+      "artist": "2Pac",
+      "year": 1995
+    },
+    {
+      "title": "Juicy",
+      "artist": "The Notorious B.I.G.",
+      "year": 1994
+    },
+    {
+      "title": "Big Poppa",
+      "artist": "The Notorious B.I.G.",
+      "year": 1994
+    },
+    {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "year": 1993
+    },
+    {
+      "title": "Gin and Juice",
+      "artist": "Snoop Dogg",
+      "year": 1993
+    },
+    {
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio",
+      "year": 1995
+    },
+    {
+      "title": "It Was a Good Day",
+      "artist": "Ice Cube",
+      "year": 1992
+    }
+  ],
+  "1990-western-pop": [
+    {
+      "title": "...Baby One More Time",
+      "artist": "Britney Spears",
+      "year": 1998
+    },
+    {
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "year": 1992
+    },
+    {
+      "title": "My Heart Will Go On",
+      "artist": "Celine Dion",
+      "year": 1997
+    },
+    {
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996
+    },
+    {
+      "title": "Torn",
+      "artist": "Natalie Imbruglia",
+      "year": 1997
+    },
+    {
+      "title": "Angels",
+      "artist": "Robbie Williams",
+      "year": 1997
+    },
+    {
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "year": 1999
+    },
+    {
+      "title": "Genie in a Bottle",
+      "artist": "Christina Aguilera",
+      "year": 1999
+    },
+    {
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "year": 1999
+    },
+    {
+      "title": "Believe",
+      "artist": "Cher",
+      "year": 1998
+    },
+    {
+      "title": "Barbie Girl",
+      "artist": "Aqua",
+      "year": 1997
+    },
+    {
+      "title": "Truly Madly Deeply",
+      "artist": "Savage Garden",
+      "year": 1997
+    }
+  ],
+  "1990-western-rnb": [
+    {
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "year": 1999
+    },
+    {
+      "title": "Waterfalls",
+      "artist": "TLC",
+      "year": 1995
+    },
+    {
+      "title": "You're Makin' Me High",
+      "artist": "Toni Braxton",
+      "year": 1996
+    },
+    {
+      "title": "Un-Break My Heart",
+      "artist": "Toni Braxton",
+      "year": 1996
+    },
+    {
+      "title": "The Boy Is Mine",
+      "artist": "Brandy & Monica",
+      "year": 1998
+    },
+    {
+      "title": "Pony",
+      "artist": "Ginuwine",
+      "year": 1996
+    },
+    {
+      "title": "Killing Me Softly",
+      "artist": "Fugees",
+      "year": 1996
+    },
+    {
+      "title": "Doo Wop (That Thing)",
+      "artist": "Lauryn Hill",
+      "year": 1998
+    },
+    {
+      "title": "Return of the Mack",
+      "artist": "Mark Morrison",
+      "year": 1996
+    },
+    {
+      "title": "Too Close",
+      "artist": "Next",
+      "year": 1997
+    }
+  ],
+  "1990-western-rock": [
+    {
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
       "year": 1991
     },
     {
-      "title": "你的名字我的姓氏",
-      "artist": "张学友",
-      "year": 1996
-    },
-    {
-      "title": "舍不得你",
-      "artist": "郑秀文",
+      "title": "Wonderwall",
+      "artist": "Oasis",
       "year": 1995
     },
     {
-      "title": "爱与痛的边缘",
-      "artist": "王菲",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "year": 1992
+    },
+    {
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "year": 1991
+    },
+    {
+      "title": "Come as You Are",
+      "artist": "Nirvana",
+      "year": 1991
+    },
+    {
+      "title": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "year": 1994
+    },
+    {
+      "title": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "year": 1991
+    },
+    {
+      "title": "Don't Look Back in Anger",
+      "artist": "Oasis",
       "year": 1995
     },
     {
-      "title": "情诫",
-      "artist": "王菲",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "year": 1994
+    },
+    {
+      "title": "Alive",
+      "artist": "Pearl Jam",
+      "year": 1991
+    },
+    {
+      "title": "Champagne Supernova",
+      "artist": "Oasis",
+      "year": 1995
+    },
+    {
+      "title": "1979",
+      "artist": "The Smashing Pumpkins",
+      "year": 1995
+    },
+    {
+      "title": "Song 2",
+      "artist": "Blur",
+      "year": 1997
+    },
+    {
+      "title": "Bitter Sweet Symphony",
+      "artist": "The Verve",
+      "year": 1997
+    },
+    {
+      "title": "Karma Police",
+      "artist": "Radiohead",
+      "year": 1997
+    },
+    {
+      "title": "Everlong",
+      "artist": "Foo Fighters",
+      "year": 1997
+    },
+    {
+      "title": "Closing Time",
+      "artist": "Semisonic",
       "year": 1998
     },
     {
-      "title": "暗涌",
-      "artist": "王菲",
+      "title": "One Headlight",
+      "artist": "The Wallflowers",
       "year": 1996
+    }
+  ],
+  "2000-hk-pop": [
+    {
+      "title": "K歌之王",
+      "artist": "陈奕迅",
+      "year": 2000
     },
     {
-      "title": "约定",
-      "artist": "王菲",
-      "year": 1997
+      "title": "富士山下",
+      "artist": "陈奕迅",
+      "year": 2006
     },
     {
-      "title": "如果这都不算爱",
-      "artist": "张学友",
-      "year": 1998
+      "title": "明年今日",
+      "artist": "陈奕迅",
+      "year": 2002
     },
     {
-      "title": "风花雪",
-      "artist": "陈慧琳",
-      "year": 1997
+      "title": "少女的祈祷",
+      "artist": "杨千嬅",
+      "year": 2000
     },
     {
-      "title": "越吻越伤心",
-      "artist": "苏永康",
-      "year": 1998
+      "title": "可惜我是水瓶座",
+      "artist": "杨千嬅",
+      "year": 2002
+    },
+    {
+      "title": "相爱很难",
+      "artist": "梅艳芳 张学友",
+      "year": 2002
+    },
+    {
+      "title": "好心分手",
+      "artist": "卢巧音",
+      "year": 2002
+    },
+    {
+      "title": "七友",
+      "artist": "梁汉文",
+      "year": 2003
+    },
+    {
+      "title": "爱不释手",
+      "artist": "李克勤",
+      "year": 2002
+    },
+    {
+      "title": "爱是最大权利",
+      "artist": "郑中基",
+      "year": 2005
+    }
+  ],
+  "2000-korea-pop": [
+    {
+      "title": "Nobody",
+      "artist": "Wonder Girls",
+      "year": 2008
+    },
+    {
+      "title": "Gee",
+      "artist": "少女时代",
+      "year": 2009
+    },
+    {
+      "title": "Sorry Sorry",
+      "artist": "Super Junior",
+      "year": 2009
+    },
+    {
+      "title": "Haru Haru",
+      "artist": "BIGBANG",
+      "year": 2008
+    },
+    {
+      "title": "Lies",
+      "artist": "BIGBANG",
+      "year": 2007
+    },
+    {
+      "title": "Mirotic",
+      "artist": "东方神起",
+      "year": 2008
+    },
+    {
+      "title": "One More Time",
+      "artist": "Jewelry",
+      "year": 2008
+    },
+    {
+      "title": "Abracadabra",
+      "artist": "Brown Eyed Girls",
+      "year": 2009
+    },
+    {
+      "title": "Bo Peep Bo Peep",
+      "artist": "T-ara",
+      "year": 2009
+    },
+    {
+      "title": "Ring Ding Dong",
+      "artist": "SHINee",
+      "year": 2009
+    }
+  ],
+  "2000-mainland-pop": [
+    {
+      "title": "那些花儿",
+      "artist": "朴树",
+      "year": 1999
+    },
+    {
+      "title": "白桦林",
+      "artist": "朴树",
+      "year": 1999
+    },
+    {
+      "title": "生如夏花",
+      "artist": "朴树",
+      "year": 2003
+    },
+    {
+      "title": "蓝莲花",
+      "artist": "许巍",
+      "year": 2002
+    },
+    {
+      "title": "曾经的你",
+      "artist": "许巍",
+      "year": 2004
+    },
+    {
+      "title": "完美夏天",
+      "artist": "高旗 超载乐队",
+      "year": 2002
+    },
+    {
+      "title": "同桌的你",
+      "artist": "老狼",
+      "year": 1994
+    },
+    {
+      "title": "睡在我上铺的兄弟",
+      "artist": "老狼",
+      "year": 1994
+    },
+    {
+      "title": "恋恋风尘",
+      "artist": "老狼",
+      "year": 1995
+    },
+    {
+      "title": "青春",
+      "artist": "汪峰",
+      "year": 2000
+    }
+  ],
+  "2000-western-electronic": [
+    {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "year": 2000
+    },
+    {
+      "title": "Harder Better Faster Stronger",
+      "artist": "Daft Punk",
+      "year": 2001
+    },
+    {
+      "title": "In My Arms",
+      "artist": "Mylo",
+      "year": 2004
+    },
+    {
+      "title": "Hey Boy Hey Girl",
+      "artist": "The Chemical Brothers",
+      "year": 1999
+    },
+    {
+      "title": "We Are Your Friends",
+      "artist": "Justice vs Simian",
+      "year": 2003
+    },
+    {
+      "title": "Starlight",
+      "artist": "The Supermen Lovers",
+      "year": 2001
+    },
+    {
+      "title": "Silver Screen Shower Scene",
+      "artist": "Felix Da Housecat",
+      "year": 2001
+    },
+    {
+      "title": "Satisfaction",
+      "artist": "Benny Benassi",
+      "year": 2002
+    },
+    {
+      "title": "Lazy",
+      "artist": "X-Press 2",
+      "year": 2002
+    },
+    {
+      "title": "Days Go By",
+      "artist": "Dirty Vegas",
+      "year": 2001
+    }
+  ],
+  "2000-western-hiphop": [
+    {
+      "title": "The Real Slim Shady",
+      "artist": "Eminem",
+      "year": 2000
+    },
+    {
+      "title": "Stan",
+      "artist": "Eminem",
+      "year": 2000
+    },
+    {
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "year": 2002
+    },
+    {
+      "title": "In Da Club",
+      "artist": "50 Cent",
+      "year": 2003
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "year": 2003
+    },
+    {
+      "title": "Drop It Like It's Hot",
+      "artist": "Snoop Dogg",
+      "year": 2004
+    },
+    {
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "year": 2005
+    },
+    {
+      "title": "Jesus Walks",
+      "artist": "Kanye West",
+      "year": 2004
+    },
+    {
+      "title": "Ms. Jackson",
+      "artist": "OutKast",
+      "year": 2000
+    },
+    {
+      "title": "Still D.R.E.",
+      "artist": "Dr. Dre",
+      "year": 1999
     }
   ],
   "2000-western-pop": [
@@ -1245,942 +2041,6 @@
       "title": "Hot in Herre",
       "artist": "Nelly",
       "year": 2002
-    }
-  ],
-  "2000-western-electronic": [
-    {
-      "title": "One More Time",
-      "artist": "Daft Punk",
-      "year": 2000
-    },
-    {
-      "title": "Harder Better Faster Stronger",
-      "artist": "Daft Punk",
-      "year": 2001
-    },
-    {
-      "title": "In My Arms",
-      "artist": "Mylo",
-      "year": 2004
-    },
-    {
-      "title": "Hey Boy Hey Girl",
-      "artist": "The Chemical Brothers",
-      "year": 1999
-    },
-    {
-      "title": "We Are Your Friends",
-      "artist": "Justice vs Simian",
-      "year": 2003
-    },
-    {
-      "title": "Starlight",
-      "artist": "The Supermen Lovers",
-      "year": 2001
-    },
-    {
-      "title": "Silver Screen Shower Scene",
-      "artist": "Felix Da Housecat",
-      "year": 2001
-    },
-    {
-      "title": "Satisfaction",
-      "artist": "Benny Benassi",
-      "year": 2002
-    },
-    {
-      "title": "Lazy",
-      "artist": "X-Press 2",
-      "year": 2002
-    },
-    {
-      "title": "Days Go By",
-      "artist": "Dirty Vegas",
-      "year": 2001
-    }
-  ],
-  "2000-hk-pop": [
-    {
-      "title": "K歌之王",
-      "artist": "陈奕迅",
-      "year": 2000
-    },
-    {
-      "title": "富士山下",
-      "artist": "陈奕迅",
-      "year": 2006
-    },
-    {
-      "title": "明年今日",
-      "artist": "陈奕迅",
-      "year": 2002
-    },
-    {
-      "title": "少女的祈祷",
-      "artist": "杨千嬅",
-      "year": 2000
-    },
-    {
-      "title": "可惜我是水瓶座",
-      "artist": "杨千嬅",
-      "year": 2002
-    },
-    {
-      "title": "相爱很难",
-      "artist": "梅艳芳 张学友",
-      "year": 2002
-    },
-    {
-      "title": "好心分手",
-      "artist": "卢巧音",
-      "year": 2002
-    },
-    {
-      "title": "七友",
-      "artist": "梁汉文",
-      "year": 2003
-    },
-    {
-      "title": "爱不释手",
-      "artist": "李克勤",
-      "year": 2002
-    },
-    {
-      "title": "爱是最大权利",
-      "artist": "郑中基",
-      "year": 2005
-    }
-  ],
-  "2000-mainland-pop": [
-    {
-      "title": "那些花儿",
-      "artist": "朴树",
-      "year": 1999
-    },
-    {
-      "title": "白桦林",
-      "artist": "朴树",
-      "year": 1999
-    },
-    {
-      "title": "生如夏花",
-      "artist": "朴树",
-      "year": 2003
-    },
-    {
-      "title": "蓝莲花",
-      "artist": "许巍",
-      "year": 2002
-    },
-    {
-      "title": "曾经的你",
-      "artist": "许巍",
-      "year": 2004
-    },
-    {
-      "title": "完美夏天",
-      "artist": "高旗 超载乐队",
-      "year": 2002
-    },
-    {
-      "title": "同桌的你",
-      "artist": "老狼",
-      "year": 1994
-    },
-    {
-      "title": "睡在我上铺的兄弟",
-      "artist": "老狼",
-      "year": 1994
-    },
-    {
-      "title": "恋恋风尘",
-      "artist": "老狼",
-      "year": 1995
-    },
-    {
-      "title": "青春",
-      "artist": "汪峰",
-      "year": 2000
-    }
-  ],
-  "1985-taiwan-pop": [
-    {
-      "title": "月亮代表我的心",
-      "artist": "邓丽君",
-      "year": 1977
-    },
-    {
-      "title": "甜蜜蜜",
-      "artist": "邓丽君",
-      "year": 1979
-    },
-    {
-      "title": "小城故事",
-      "artist": "邓丽君",
-      "year": 1979
-    },
-    {
-      "title": "一剪梅",
-      "artist": "费玉清",
-      "year": 1983
-    },
-    {
-      "title": "梦驼铃",
-      "artist": "费玉清",
-      "year": 1984
-    },
-    {
-      "title": "明天会更好",
-      "artist": "群星",
-      "year": 1985
-    },
-    {
-      "title": "恰似你的温柔",
-      "artist": "蔡琴",
-      "year": 1979
-    },
-    {
-      "title": "被遗忘的时光",
-      "artist": "蔡琴",
-      "year": 1979
-    },
-    {
-      "title": "橄榄树",
-      "artist": "齐豫",
-      "year": 1979
-    },
-    {
-      "title": "你的样子",
-      "artist": "罗大佑",
-      "year": 1988
-    }
-  ],
-  "1990-taiwan-pop": [
-    {
-      "title": "爱如潮水",
-      "artist": "张信哲",
-      "year": 1993
-    },
-    {
-      "title": "过火",
-      "artist": "张信哲",
-      "year": 1995
-    },
-    {
-      "title": "大海",
-      "artist": "张雨生",
-      "year": 1992
-    },
-    {
-      "title": "我的未来不是梦",
-      "artist": "张雨生",
-      "year": 1988
-    },
-    {
-      "title": "梦醒时分",
-      "artist": "陈淑桦",
-      "year": 1989
-    },
-    {
-      "title": "滚滚红尘",
-      "artist": "陈淑桦",
-      "year": 1990
-    },
-    {
-      "title": "新不了情",
-      "artist": "万芳",
-      "year": 1993
-    },
-    {
-      "title": "领悟",
-      "artist": "辛晓琪",
-      "year": 1994
-    },
-    {
-      "title": "味道",
-      "artist": "辛晓琪",
-      "year": 1994
-    },
-    {
-      "title": "最浪漫的事",
-      "artist": "赵咏华",
-      "year": 1994
-    }
-  ],
-  "1985-japan-pop": [
-    {
-      "title": "未来予想図Ⅱ",
-      "artist": "DREAMS COME TRUE",
-      "year": 1989
-    },
-    {
-      "title": "Lemon Tree",
-      "artist": "Fools Garden",
-      "year": 1995
-    },
-    {
-      "title": "世界中の誰よりきっと",
-      "artist": "中山美穂",
-      "year": 1992
-    },
-    {
-      "title": "愛は勝つ",
-      "artist": "KAN",
-      "year": 1990
-    },
-    {
-      "title": "SAY YES",
-      "artist": "CHAGE and ASKA",
-      "year": 1991
-    },
-    {
-      "title": "ラブ・ストーリーは突然に",
-      "artist": "小田和正",
-      "year": 1991
-    },
-    {
-      "title": "負けないで",
-      "artist": "ZARD",
-      "year": 1993
-    },
-    {
-      "title": "浪漫飛行",
-      "artist": "米米CLUB",
-      "year": 1990
-    },
-    {
-      "title": "クリスマス・イブ",
-      "artist": "山下達郎",
-      "year": 1983
-    },
-    {
-      "title": "First Love",
-      "artist": "宇多田ヒカル",
-      "year": 1999
-    }
-  ],
-  "1995-japan-pop": [
-    {
-      "title": "First Love",
-      "artist": "宇多田ヒカル",
-      "year": 1999
-    },
-    {
-      "title": "Automatic",
-      "artist": "宇多田ヒカル",
-      "year": 1998
-    },
-    {
-      "title": "CAN YOU CELEBRATE?",
-      "artist": "安室奈美恵",
-      "year": 1997
-    },
-    {
-      "title": "Everything",
-      "artist": "MISIA",
-      "year": 2000
-    },
-    {
-      "title": "夜空ノムコウ",
-      "artist": "SMAP",
-      "year": 1998
-    },
-    {
-      "title": "White Love",
-      "artist": "SPEED",
-      "year": 1997
-    },
-    {
-      "title": "Body & Soul",
-      "artist": "SPEED",
-      "year": 1996
-    },
-    {
-      "title": "Love Love Love",
-      "artist": "DREAMS COME TRUE",
-      "year": 1995
-    },
-    {
-      "title": "TOMORROW",
-      "artist": "岡本真夜",
-      "year": 1995
-    },
-    {
-      "title": "アジアの純真",
-      "artist": "PUFFY",
-      "year": 1996
-    }
-  ],
-  "1995-japan-rock": [
-    {
-      "title": "end roll",
-      "artist": "L'Arc~en~Ciel",
-      "year": 1999
-    },
-    {
-      "title": "Driver's High",
-      "artist": "L'Arc~en~Ciel",
-      "year": 1999
-    },
-    {
-      "title": "誘惑",
-      "artist": "GLAY",
-      "year": 1998
-    },
-    {
-      "title": "Winter again",
-      "artist": "GLAY",
-      "year": 1999
-    },
-    {
-      "title": "HONEY",
-      "artist": "L'Arc~en~Ciel",
-      "year": 1998
-    },
-    {
-      "title": "I for You",
-      "artist": "LUNA SEA",
-      "year": 1998
-    },
-    {
-      "title": "Tomorrow never knows",
-      "artist": "Mr.Children",
-      "year": 1994
-    },
-    {
-      "title": "名もなき詩",
-      "artist": "Mr.Children",
-      "year": 1996
-    },
-    {
-      "title": "終わりなき旅",
-      "artist": "Mr.Children",
-      "year": 1998
-    },
-    {
-      "title": "Rusty Nail",
-      "artist": "X JAPAN",
-      "year": 1994
-    }
-  ],
-  "1995-korea-pop": [
-    {
-      "title": "I'm Your Girl",
-      "artist": "S.E.S.",
-      "year": 1997
-    },
-    {
-      "title": "Dreams Come True",
-      "artist": "S.E.S.",
-      "year": 1998
-    },
-    {
-      "title": "Candy",
-      "artist": "H.O.T.",
-      "year": 1996
-    },
-    {
-      "title": "We Are The Future",
-      "artist": "H.O.T.",
-      "year": 1997
-    },
-    {
-      "title": "To My Boyfriend",
-      "artist": "Fin.K.L",
-      "year": 1998
-    },
-    {
-      "title": "Eternal Love",
-      "artist": "Fin.K.L",
-      "year": 1999
-    },
-    {
-      "title": "T.O.P.",
-      "artist": "神话",
-      "year": 1999
-    },
-    {
-      "title": "Perfect Man",
-      "artist": "神话",
-      "year": 2002
-    },
-    {
-      "title": "Come Back Home",
-      "artist": "서태지와 아이들",
-      "year": 1995
-    },
-    {
-      "title": "No.1",
-      "artist": "BoA",
-      "year": 2002
-    }
-  ],
-  "2000-korea-pop": [
-    {
-      "title": "Nobody",
-      "artist": "Wonder Girls",
-      "year": 2008
-    },
-    {
-      "title": "Gee",
-      "artist": "少女时代",
-      "year": 2009
-    },
-    {
-      "title": "Sorry Sorry",
-      "artist": "Super Junior",
-      "year": 2009
-    },
-    {
-      "title": "Haru Haru",
-      "artist": "BIGBANG",
-      "year": 2008
-    },
-    {
-      "title": "Lies",
-      "artist": "BIGBANG",
-      "year": 2007
-    },
-    {
-      "title": "Mirotic",
-      "artist": "东方神起",
-      "year": 2008
-    },
-    {
-      "title": "One More Time",
-      "artist": "Jewelry",
-      "year": 2008
-    },
-    {
-      "title": "Abracadabra",
-      "artist": "Brown Eyed Girls",
-      "year": 2009
-    },
-    {
-      "title": "Bo Peep Bo Peep",
-      "artist": "T-ara",
-      "year": 2009
-    },
-    {
-      "title": "Ring Ding Dong",
-      "artist": "SHINee",
-      "year": 2009
-    }
-  ],
-  "1975-western-jazz": [
-    {
-      "title": "So What",
-      "artist": "Miles Davis",
-      "year": 1959
-    },
-    {
-      "title": "Take Five",
-      "artist": "Dave Brubeck",
-      "year": 1959
-    },
-    {
-      "title": "My Favorite Things",
-      "artist": "John Coltrane",
-      "year": 1961
-    },
-    {
-      "title": "What a Wonderful World",
-      "artist": "Louis Armstrong",
-      "year": 1967
-    },
-    {
-      "title": "Birdland",
-      "artist": "Weather Report",
-      "year": 1977
-    },
-    {
-      "title": "Spain",
-      "artist": "Chick Corea",
-      "year": 1973
-    },
-    {
-      "title": "Chameleon",
-      "artist": "Herbie Hancock",
-      "year": 1973
-    },
-    {
-      "title": "Feels So Good",
-      "artist": "Chuck Mangione",
-      "year": 1977
-    },
-    {
-      "title": "Just the Two of Us",
-      "artist": "Grover Washington Jr.",
-      "year": 1981
-    },
-    {
-      "title": "Mister Magic",
-      "artist": "Grover Washington Jr.",
-      "year": 1975
-    }
-  ],
-  "1980-western-jazz": [
-    {
-      "title": "Birdland",
-      "artist": "Weather Report",
-      "year": 1977
-    },
-    {
-      "title": "Morning Dance",
-      "artist": "Spyro Gyra",
-      "year": 1979
-    },
-    {
-      "title": "Rise",
-      "artist": "Herb Alpert",
-      "year": 1979
-    },
-    {
-      "title": "Give It All You Got",
-      "artist": "Chuck Mangione",
-      "year": 1980
-    },
-    {
-      "title": "Winelight",
-      "artist": "Grover Washington Jr.",
-      "year": 1980
-    },
-    {
-      "title": "In a Sentimental Mood",
-      "artist": "Duke Ellington",
-      "year": 1987
-    },
-    {
-      "title": "The Girl from Ipanema",
-      "artist": "Stan Getz",
-      "year": 1964
-    },
-    {
-      "title": "Round Midnight",
-      "artist": "Thelonious Monk",
-      "year": 1957
-    },
-    {
-      "title": "A Love Supreme Part 1",
-      "artist": "John Coltrane",
-      "year": 1965
-    },
-    {
-      "title": "Smooth Operator",
-      "artist": "Sade",
-      "year": 1984
-    }
-  ],
-  "1985-western-hiphop": [
-    {
-      "title": "Walk This Way",
-      "artist": "Run-DMC",
-      "year": 1986
-    },
-    {
-      "title": "It's Tricky",
-      "artist": "Run-DMC",
-      "year": 1986
-    },
-    {
-      "title": "Fight the Power",
-      "artist": "Public Enemy",
-      "year": 1989
-    },
-    {
-      "title": "Push It",
-      "artist": "Salt-N-Pepa",
-      "year": 1987
-    },
-    {
-      "title": "Parents Just Don't Understand",
-      "artist": "DJ Jazzy Jeff & The Fresh Prince",
-      "year": 1988
-    },
-    {
-      "title": "Straight Outta Compton",
-      "artist": "N.W.A",
-      "year": 1988
-    },
-    {
-      "title": "Wild Thing",
-      "artist": "Tone Loc",
-      "year": 1988
-    },
-    {
-      "title": "Bust a Move",
-      "artist": "Young MC",
-      "year": 1989
-    },
-    {
-      "title": "My Philosophy",
-      "artist": "Boogie Down Productions",
-      "year": 1988
-    },
-    {
-      "title": "Me Myself and I",
-      "artist": "De La Soul",
-      "year": 1989
-    }
-  ],
-  "1990-western-hiphop": [
-    {
-      "title": "U Can't Touch This",
-      "artist": "MC Hammer",
-      "year": 1990
-    },
-    {
-      "title": "Ice Ice Baby",
-      "artist": "Vanilla Ice",
-      "year": 1990
-    },
-    {
-      "title": "Nuthin' But a 'G' Thang",
-      "artist": "Dr. Dre",
-      "year": 1992
-    },
-    {
-      "title": "California Love",
-      "artist": "2Pac",
-      "year": 1995
-    },
-    {
-      "title": "Juicy",
-      "artist": "The Notorious B.I.G.",
-      "year": 1994
-    },
-    {
-      "title": "Big Poppa",
-      "artist": "The Notorious B.I.G.",
-      "year": 1994
-    },
-    {
-      "title": "C.R.E.A.M.",
-      "artist": "Wu-Tang Clan",
-      "year": 1993
-    },
-    {
-      "title": "Gin and Juice",
-      "artist": "Snoop Dogg",
-      "year": 1993
-    },
-    {
-      "title": "Gangsta's Paradise",
-      "artist": "Coolio",
-      "year": 1995
-    },
-    {
-      "title": "It Was a Good Day",
-      "artist": "Ice Cube",
-      "year": 1992
-    }
-  ],
-  "2000-western-hiphop": [
-    {
-      "title": "The Real Slim Shady",
-      "artist": "Eminem",
-      "year": 2000
-    },
-    {
-      "title": "Stan",
-      "artist": "Eminem",
-      "year": 2000
-    },
-    {
-      "title": "Lose Yourself",
-      "artist": "Eminem",
-      "year": 2002
-    },
-    {
-      "title": "In Da Club",
-      "artist": "50 Cent",
-      "year": 2003
-    },
-    {
-      "title": "Hey Ya!",
-      "artist": "OutKast",
-      "year": 2003
-    },
-    {
-      "title": "Drop It Like It's Hot",
-      "artist": "Snoop Dogg",
-      "year": 2004
-    },
-    {
-      "title": "Gold Digger",
-      "artist": "Kanye West",
-      "year": 2005
-    },
-    {
-      "title": "Jesus Walks",
-      "artist": "Kanye West",
-      "year": 2004
-    },
-    {
-      "title": "Ms. Jackson",
-      "artist": "OutKast",
-      "year": 2000
-    },
-    {
-      "title": "Still D.R.E.",
-      "artist": "Dr. Dre",
-      "year": 1999
-    }
-  ],
-  "1975-western-classical": [
-    {
-      "title": "Symphony No. 5 in C minor",
-      "artist": "Ludwig van Beethoven",
-      "year": 1808
-    },
-    {
-      "title": "Eine kleine Nachtmusik",
-      "artist": "Wolfgang Amadeus Mozart",
-      "year": 1787
-    },
-    {
-      "title": "The Four Seasons Spring",
-      "artist": "Antonio Vivaldi",
-      "year": 1725
-    },
-    {
-      "title": "Canon in D",
-      "artist": "Johann Pachelbel",
-      "year": 1680
-    },
-    {
-      "title": "Ride of the Valkyries",
-      "artist": "Richard Wagner",
-      "year": 1856
-    },
-    {
-      "title": "Clair de Lune",
-      "artist": "Claude Debussy",
-      "year": 1905
-    },
-    {
-      "title": "Boléro",
-      "artist": "Maurice Ravel",
-      "year": 1928
-    },
-    {
-      "title": "Also sprach Zarathustra",
-      "artist": "Richard Strauss",
-      "year": 1896
-    },
-    {
-      "title": "The Blue Danube",
-      "artist": "Johann Strauss II",
-      "year": 1867
-    },
-    {
-      "title": "Carmina Burana O Fortuna",
-      "artist": "Carl Orff",
-      "year": 1937
-    }
-  ],
-  "1980-taiwan-pop": [
-    {
-      "title": "月亮代表我的心",
-      "artist": "邓丽君",
-      "year": 1977
-    },
-    {
-      "title": "甜蜜蜜",
-      "artist": "邓丽君",
-      "year": 1979
-    },
-    {
-      "title": "我只在乎你",
-      "artist": "邓丽君",
-      "year": 1986
-    },
-    {
-      "title": "恰似你的温柔",
-      "artist": "蔡琴",
-      "year": 1979
-    },
-    {
-      "title": "橄榄树",
-      "artist": "齐豫",
-      "year": 1979
-    },
-    {
-      "title": "龙的传人",
-      "artist": "李建复",
-      "year": 1980
-    },
-    {
-      "title": "童年",
-      "artist": "罗大佑",
-      "year": 1982
-    },
-    {
-      "title": "光阴的故事",
-      "artist": "罗大佑",
-      "year": 1982
-    },
-    {
-      "title": "鹿港小镇",
-      "artist": "罗大佑",
-      "year": 1982
-    },
-    {
-      "title": "之乎者也",
-      "artist": "罗大佑",
-      "year": 1982
-    }
-  ],
-  "1995-taiwan-pop": [
-    {
-      "title": "听海",
-      "artist": "张惠妹",
-      "year": 1997
-    },
-    {
-      "title": "姐妹",
-      "artist": "张惠妹",
-      "year": 1996
-    },
-    {
-      "title": "我可以抱你吗",
-      "artist": "张惠妹",
-      "year": 1999
-    },
-    {
-      "title": "爱如潮水",
-      "artist": "张信哲",
-      "year": 1993
-    },
-    {
-      "title": "宽容",
-      "artist": "张信哲",
-      "year": 1995
-    },
-    {
-      "title": "城里的月光",
-      "artist": "许美静",
-      "year": 1996
-    },
-    {
-      "title": "都是月亮惹的祸",
-      "artist": "张宇",
-      "year": 1998
-    },
-    {
-      "title": "雨一直下",
-      "artist": "张宇",
-      "year": 1999
-    },
-    {
-      "title": "征服",
-      "artist": "那英",
-      "year": 1998
-    },
-    {
-      "title": "心太软",
-      "artist": "任贤齐",
-      "year": 1996
     }
   ]
 }

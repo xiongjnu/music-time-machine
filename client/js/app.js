@@ -7,7 +7,7 @@
 
   // ── 状态 ──
   const state = {
-    era: '1975',
+    era: '1970',
     region: 'western',
     genre: 'mix',
     songs: [],
@@ -17,13 +17,14 @@
     profile: null,
     qrKey: null,
     pollTimer: null,
+    lyrics: { lines: [], curIdx: -1, expanded: false },
   };
 
   // ── DOM 引用 ──
   let $loginPage, $mainPage, $qrImg, $qrStatus, $slider, $eraLabel;
   let $regions, $genres, $songList, $progressBar, $progressFill, $timeCurrent, $timeDuration;
   let $volSlider, $btnPrev, $btnNext, $btnPlay, $btnLogout, $userInfo;
-  let $songTitle, $songArtist;
+  let $songTitle, $songArtist, $lyricBar, $lyricBarText, $lyricPanel, $lyricPanelContent, $lyricBody, $btnLyricCollapse;
 
   const player = new Player();
   let tunnel;
@@ -108,6 +109,12 @@
     $userInfo = document.getElementById('user-info');
     $songTitle = document.getElementById('now-title');
     $songArtist = document.getElementById('now-artist');
+    $lyricBar = document.getElementById('lyric-bar');
+    $lyricBarText = document.getElementById('lyric-bar-text');
+    $lyricPanel = document.getElementById('lyric-panel');
+    $lyricPanelContent = document.getElementById('lyric-panel-content');
+    $lyricBody = document.getElementById('lyric-body');
+    $btnLyricCollapse = document.getElementById('btn-lyric-collapse');
   }
 
   function bindEvents() {
@@ -121,6 +128,9 @@
     $btnNext.addEventListener('click', () => player.next());
     $btnPlay.addEventListener('click', () => player.toggle());
     $btnLogout.addEventListener('click', onLogout);
+    $lyricBar.addEventListener('click', expandLyric);
+    $btnLyricCollapse.addEventListener('click', collapseLyric);
+    $lyricPanel.addEventListener('click', onLyricPanelClick);
   }
 
   // ── 登录页 ──
@@ -271,8 +281,8 @@
     $slider.value = era;
     $eraLabel.textContent = era;
     const colors = {
-      '1970': '#E8833A', '1975': '#C62828', '1980': '#FF1493', '1985': '#00BFFF',
-      '1990': '#1A237E', '1995': '#90CAF9', '2000': '#F5F5F5',
+      '1970': '#C62828', '1980': '#FF1493', '1990': '#00BFFF',
+      '2000': '#E8833A', '2010': '#90CAF9', '2020': '#F5F5F5',
     };
     document.documentElement.style.setProperty('--era-primary', colors[era] || '#C62828');
   }
@@ -326,6 +336,9 @@
     if (ps.currentSong) {
       $songTitle.textContent = ps.currentSong.title;
       $songArtist.textContent = ps.currentSong.artist;
+      if (_lyricSongId !== ps.currentSong.id) {
+        fetchLyric(ps.currentSong);
+      }
     }
 
     // 更新列表播放高亮
@@ -340,6 +353,154 @@
     $progressFill.style.width = p.pct + '%';
     $timeCurrent.textContent = fmtTime(p.current);
     if (p.duration) $timeDuration.textContent = fmtTime(p.duration);
+    setLyricActive(p.current * 1000);
+  }
+
+  // ── 歌词 ──
+  let _lyricSongId = null;
+
+  function expandLyric() {
+    if (!state.currentSong) return;
+    state.lyrics.expanded = true;
+    $lyricPanel.classList.add('expanded');
+    if (state.lyrics.lines.length > 0) {
+      renderLyricLines();
+    }
+  }
+
+  function collapseLyric() {
+    state.lyrics.expanded = false;
+    $lyricPanel.classList.remove('expanded');
+  }
+
+  function onLyricPanelClick(e) {
+    if (!e.target.closest('.lyric-panel-content')) {
+      collapseLyric();
+    }
+  }
+
+  async function fetchLyric(song) {
+    _lyricSongId = song.id;
+    $lyricBody.innerHTML = '<div class="lyric-placeholder">正在加载歌词...</div>';
+
+    try {
+      const res = await fetch(`/api/lyric?id=${song.id}`);
+      const data = await res.json();
+      if (data.code !== 200 || !data.data || !data.data.lyric) {
+        $lyricBody.innerHTML = '<div class="lyric-placeholder">暂无歌词</div>';
+        $lyricBar.classList.remove('has-lyric');
+        $lyricBarText.textContent = '';
+        state.lyrics.lines = [];
+        return;
+      }
+      state.lyrics.lines = parseLyric(data.data.lyric, data.data.tlyric);
+      state.lyrics.curIdx = -1;
+      $lyricBar.classList.add('has-lyric');
+      if (state.lyrics.expanded) {
+        renderLyricLines();
+      }
+    } catch {
+      $lyricBody.innerHTML = '<div class="lyric-placeholder">歌词加载失败</div>';
+      state.lyrics.lines = [];
+    }
+  }
+
+  function parseLyric(lyric, tlyric) {
+    const lines = [];
+    const re = /\[(\d{2}):(\d{2})(?:[.:](\d{1,3}))?\]/g;
+
+    const rawLines = lyric.split('\n');
+    for (const raw of rawLines) {
+      const timestamps = [];
+      let m;
+      re.lastIndex = 0;
+      while ((m = re.exec(raw)) !== null) {
+        const ms = parseInt(m[1]) * 60000 + parseInt(m[2]) * 1000 + (parseInt(m[3] || '0') * (m[3] && m[3].length === 2 ? 10 : 1));
+        timestamps.push(ms);
+      }
+      const text = raw.replace(/\[.*?\]/g, '').trim();
+      if (timestamps.length > 0 && text) {
+        for (const t of timestamps) {
+          lines.push({ time: t, text });
+        }
+      }
+    }
+
+    // Parse translated lyrics
+    const transMap = {};
+    if (tlyric) {
+      const tLines = tlyric.split('\n');
+      for (const raw of tLines) {
+        let tm;
+        re.lastIndex = 0;
+        if ((tm = re.exec(raw)) !== null) {
+          const tms = parseInt(tm[1]) * 60000 + parseInt(tm[2]) * 1000;
+          const ttext = raw.replace(/\[.*?\]/g, '').trim();
+          if (ttext) transMap[tms] = ttext;
+        }
+      }
+    }
+
+    lines.sort((a, b) => a.time - b.time);
+    for (const l of lines) {
+      l.trans = transMap[Math.round(l.time / 1000) * 1000] || '';
+    }
+
+    return lines;
+  }
+
+  function renderLyricLines() {
+    if (state.lyrics.lines.length === 0) {
+      $lyricBody.innerHTML = '<div class="lyric-placeholder">暂无歌词</div>';
+      return;
+    }
+    let html = '';
+    for (let i = 0; i < state.lyrics.lines.length; i++) {
+      const line = state.lyrics.lines[i];
+      html += `<div class="lyric-line" data-idx="${i}">${escHtml(line.text)}`;
+      if (line.trans) {
+        html += `<div class="lyric-line translated">${escHtml(line.trans)}</div>`;
+      }
+      html += '</div>';
+    }
+    $lyricBody.innerHTML = html;
+    state.lyrics.curIdx = -1;
+  }
+
+  function setLyricActive(currentTimeMs) {
+    const lines = state.lyrics.lines;
+    if (lines.length === 0) return;
+
+    let idx = -1;
+    for (let i = lines.length - 1; i >= 0; i--) {
+      if (currentTimeMs >= lines[i].time) {
+        idx = i;
+        break;
+      }
+    }
+
+    if (idx === state.lyrics.curIdx) return;
+    state.lyrics.curIdx = idx;
+
+    // Update single-line bar
+    if (idx >= 0) {
+      $lyricBarText.textContent = lines[idx].text;
+    } else {
+      $lyricBarText.textContent = '';
+    }
+
+    // Update full panel highlight
+    if (state.lyrics.expanded) {
+      const prev = $lyricBody.querySelector('.lyric-line.active');
+      if (prev) prev.classList.remove('active');
+      if (idx >= 0) {
+        const cur = $lyricBody.querySelector(`[data-idx="${idx}"]`);
+        if (cur) {
+          cur.classList.add('active');
+          cur.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        }
+      }
+    }
   }
 
   // ── Toast ──

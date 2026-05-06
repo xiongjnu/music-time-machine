@@ -1,7 +1,7 @@
 # 音乐时光机器 — 完整开发文档
 
 > **Music Time Machine** — 以年代为轴的音乐时光探索器  
-> 版本：v2.0 | 最后更新：2026-05 | 变更：全部Phase完成 + 测试 + 生产部署
+> 版本：v0.2.0 | 最后更新：2026-05 | 变更：年代十年节点化 + 加权随机30首 + 歌词显示 + 数据池扩充(288 slots) + 去QQ音乐
 
 ---
 
@@ -37,11 +37,11 @@
 | 项 | 值 |
 |---|---|
 | 项目名 | music-time-machine |
-| 仓库名 | `github.com/<username>/music-time-machine` |
+| 仓库名 | `github.com/xiongjnu/music-time-machine` |
 | 开源协议 | MIT |
-| 初期年代范围 | 1970 - 2000（7个5年跨度） |
-| 初期地区 | 欧美 / 香港 / 大陆（预留台湾/日本/韩国） |
-| 初期风格 | Mix / 摇滚 / 民谣 / 流行 / R&B灵魂 / 电子（预留古典/嘻哈/爵士） |
+| 年代范围 | 1970 - 2020（6个10年跨度） |
+| 地区 | 欧美 / 香港 / 大陆 / 台湾 / 日本 / 韩国（6个） |
+| 风格 | Mix / 摇滚 / 民谣 / 流行 / R&B / 电子 / 古典 / 嘻哈 / 爵士（9个，含Mix） |
 
 ### 1.4 差异化定位
 
@@ -65,23 +65,21 @@
 | 编号 | 功能 | 优先级 | Phase | 说明 |
 |------|------|--------|-------|------|
 | F01 | 网易云二维码扫码登录 | P0 | 1 | 唯一登录方式，Cookie仅存内存 |
-| F02 | 时间滑块选择年代 | P0 | 3 | 5年一格，1970-2000 |
-| F03 | 地区Tab切换 | P0 | 3 | 欧美/香港/大陆 |
-| F04 | 风格筛选 | P0 | 3 | Mix(默认)/摇滚/民谣/流行/R&B/电子 |
-| F05 | Mix混合模式 | P0 | 3 | 跨风格随机组合10首，显示风格标签 |
-| F06 | 歌曲列表展示 | P0 | 3 | Top10，显示歌名/歌手/时长/风格标签 |
-| F07 | 点击即播 | P0 | 3 | HTML5 Audio完整播放 |
-| F08 | 底部播放器 | P0 | 3 | 进度条/音量/播放暂停 |
-| F09 | VIP歌曲处理 | P0 | 3 | 提示+自动切换音源（Phase 3 Mock / Phase 5真实接入） |
+| F02 | 年代滑块选择 | P0 | 3 | 10年一格，1970-2020共6个年代 |
+| F03 | 地区Tab切换 | P0 | 3 | 欧美/香港/大陆/台湾/日本/韩国，6个地区 |
+| F04 | 风格筛选 | P0 | 3 | Mix(默认)+8个具体风格，共9个 |
+| F05 | Mix混合模式 | P0 | 3 | 跨风格加权随机组合30首，显示风格标签 |
+| F06 | 歌曲列表展示 | P0 | 3 | 最多30首，显示歌名/歌手/时长/风格标签 |
+| F07 | 点击即播 | P0 | 3 | HTML5 Audio完整播放，竞态保护 |
+| F08 | 底部播放器 | P0 | 3 | 进度条/音量/播放暂停/上下首 |
+| F09 | VIP歌曲处理 | P0 | 3 | 标记👑，提示用户 |
 | F10 | 自动播放下一首 | P1 | 3 | 当前歌曲播完自动播放列表下一首 |
 | F11 | 策展数据验证 | P0 | 2 | 启动时验证歌曲有效性+自动替补 |
-| F12 | QQ音乐音源真实接入 | P2 | 5 | ✅ 调用QQ音乐API，vkey→CDN URL完整链路 |
-| F13 | 年代扩展 | P2 | 5 | ✅ 1970-2000，7个年代（与原范围一致） |
-| F14 | 地区扩展(台湾/日本/韩国) | P2 | 5 | ✅ 全部6个地区 |
-| F15 | 风格扩展(古典/嘻哈/爵士) | P2 | 5 | ✅ 全部9个风格（含Mix） |
-| F16 | 年代二级年份选择器 | P2 | 5 | ✅ 5年格→精确年份子选择 |
-| F17 | 测试覆盖 | P0 | 5+ | ✅ 63个测试，89%+覆盖率，node:test + supertest |
-| F18 | PM2本地生产部署 | P0 | 5+ | ✅ macOS launchd开机自启，端口3000 |
+| F12 | 加权随机推荐 | P1 | 3 | 权重抽奖池算法，同歌手≤2首，跨年份分散 |
+| F13 | 歌词显示 | P1 | 4 | 单行滚动栏+点击展开全屏面板，实时高亮 |
+| F14 | 数据池扩充 | P0 | 2 | auto-fill.js歌单搜索，288 slots全部填充，4262首 |
+| F15 | 测试覆盖 | P0 | 全Phase | 73个测试，0失败，node:test + supertest |
+| F16 | PM2本地生产部署 | P0 | 部署 | macOS launchd开机自启，端口3000 |
 
 ### 2.2 非功能需求
 
@@ -104,8 +102,10 @@
 - 账号密码登录（仅二维码）
 - 离线模式
 - 社交分享
-- 歌词显示（后续版本考虑）
+- QQ音乐音源接入（已移除，网易云曲库已覆盖）
+- 年代二级年份选择器（已移除，年代选择简化为10年节点）
 - Electron桌面端（后续版本考虑）
+- AI推荐功能（后续版本考虑）
 
 ---
 
@@ -205,10 +205,10 @@
 | 行为 | Mix模式（默认） | 指定风格模式 |
 |------|----------------|-------------|
 | **选中状态** | 默认选中 | 用户手动点击 |
-| **歌曲来源** | 该年代×地区下所有风格，每类随机抽2首，组成10首 | 该年代×地区×风格的Top10 |
-| **排序** | 随机打乱 | 按热度排序 |
-| **风格标签** | 每首歌显示风格小标签（🎸🎻🎤🎶🎹） | 风格统一，不显示标签 |
-| **切换行为** | 切回Mix时重新随机组合 | 固定排序 |
+| **歌曲来源** | 该年代×地区下所有风格，每类最多抽4首，加权随机共30首 | 该年代×地区×风格，加权随机30首 |
+| **排序** | 随机打乱（Fisher-Yates） | 随机打乱 |
+| **风格标签** | 每首歌显示风格小标签（🎸🎻🎤🎶🎹等） | 风格统一，不显示标签 |
+| **切换行为** | 切回Mix时重新随机组合 | 每次切换重新随机 |
 
 ### 3.5 交互流程
 
@@ -243,7 +243,7 @@
             └────────┬─────────┘
                      ▼
             ┌──────────────────┐
-            │  返回Top10歌曲    │
+            │  返回最多30首歌曲  │
             │  列表刷新(动画)   │
             └────────┬─────────┘
                      │
@@ -274,34 +274,7 @@
 | 无音源歌曲 | 显示"暂无音源"，1.5秒后自动跳下一首 | Toast提示 |
 | 点击退出 | 清除内存Cookie，回到登录页 | 页面过渡 |
 
-### 3.7 年代二级年份选择器（Phase 5）
-
-> 优先级P2，Phase 5实现。第一版（Phase 3）5年格已够用。
-
-**交互规格**：
-
-```
-在主年代滑块下方增加二级年份选择器（展开状态）：
-
-  ◄━━━━━━━●━━━━━━━━━━━━━━━━━━━►      ← 5年格滑块
-  1970    1975    1980    1985   1990
-          ▲ 选中1980
-
-  [1980] [1981] [1982] [1983] [1984] ← 二级年份选择器
-    ▲ 默认选中该格的起始年份
-```
-
-| 规则 | 说明 |
-|------|------|
-| 触发条件 | 用户选中任意5年格后，二级选择器自动展开 |
-| 年份范围 | 该5年格内的5个具体年份（如1980格显示1980-1984） |
-| 默认选中 | 该格的起始年份 |
-| 交互 | 点击具体年份 → 请求加入 `year` 参数筛选 |
-| 收起/展开 | 可手动收起，默认展开 |
-| API变更 | `GET /api/songs?era=1980&year=1982&region=western&genre=mix` |
-| 后端筛选 | 若指定year，在active列表中精确匹配该年份的歌曲 |
-
-### 3.8 星际隧道视觉规格
+### 3.7 星际隧道视觉规格
 
 #### 背景层（Canvas动画）
 
@@ -324,13 +297,12 @@
 
 | 年代 | 光带主色 | 氛围 |
 |------|---------|------|
-| 1970 | 暖橙 #E8833A / 棕 #8B5E3C | 复古温暖 |
-| 1975 | 深红 #C62828 / 金 #FFB300 | 热烈激进 |
-| 1980 | 霓虹粉 #FF1493 / 蓝紫 #7B68EE | 迪斯科迷幻 |
-| 1985 | 电蓝 #00BFFF / 紫 #9400D3 | 合成器波 |
-| 1990 | 深蓝 #1A237E / 绿 #00C853 | Grunge/数字 |
-| 1995 | 银蓝 #90CAF9 / 白 #E0E0E0 | 千禧前夜 |
-| 2000 | 银白 #F5F5F5 / 冰蓝 #B3E5FC | 未来感 |
+| 1970 | 深红 #C62828 / 金 #FFB300 | 经典摇滚黄金期 |
+| 1980 | 霓虹粉 #FF1493 / 蓝紫 #7B68EE | 迪斯科/合成器浪潮 |
+| 1990 | 电蓝 #00BFFF / 紫 #9400D3 | Grunge/数字时代 |
+| 2000 | 暖橙 #E8833A / 棕 #8B5E3C | 千禧流行 |
+| 2010 | 银蓝 #90CAF9 / 白 #E0E0E0 | 流媒体时代 |
+| 2020 | 银白 #F5F5F5 / 冰蓝 #B3E5FC | 当代 |
 
 #### UI元素视觉风格
 
@@ -383,28 +355,27 @@
 │  │            业务逻辑层                          │  │
 │  │                                               │  │
 │  │  ┌──────────────┐  ┌──────────────────────┐  │  │
-│  │  │ 登录管理器    │  │   AI归类引擎          │  │  │
-│  │  │ · 二维码生成  │  │ · 关键词搜索聚合      │  │  │
-│  │  │ · 扫码轮询    │  │ · 元数据提取          │  │  │
-│  │  │ · Cookie管理  │  │ · 年代/地区/风格归类  │  │  │
-│  │  └──────────────┘  │ · 热度排序Top10       │  │  │
-│  │                    └──────────────────────┘  │  │
+│  │  │ 登录管理器    │  │  策展推荐引擎          │  │  │
+│  │  │ · 二维码生成  │  │ · 加权随机选择        │  │  │
+│  │  │ · 扫码轮询    │  │ · 歌手/年份约束       │  │  │
+│  │  │ · Cookie管理  │  │ · Fisher-Yates打乱    │  │  │
+│  │  └──────────────┘  └──────────────────────┘  │  │
 │  │  ┌──────────────┐  ┌──────────────────────┐  │  │
 │  │  │ 播放URL获取   │  │ 缓存管理器           │  │  │
-│  │  │ · 网易云优先  │  │ · 歌曲数据缓存       │  │  │
-│  │  │ · QQ音乐回退  │  │ · 播放URL缓存        │  │  │
-│  │  │ · VIP检测     │  │ · 搜索结果缓存       │  │  │
+│  │  │ · 网易云直连  │  │ · 播放URL缓存        │  │  │
+│  │  │ · VIP检测     │  │ · 歌词缓存           │  │  │
+│  │  │ · 404处理     │  │ · 歌曲详情缓存       │  │  │
 │  │  └──────────────┘  └──────────────────────┘  │  │
 │  └───────────────────────────────────────────────┘  │
 │                       │                            │
 │  ┌────────────────────┼─────────────────────────┐  │
 │  │            音源适配层                           │  │
 │  │                                               │  │
-│  │  ┌──────────────────┐  ┌──────────────────┐  │  │
-│  │  │ 网易云适配器      │  │ QQ音乐适配器      │  │  │
-│  │  │ NeteaseAdapter   │  │ QQMusicAdapter    │  │  │
-│  │  │ (基于Enhanced版)  │  │ (预留，Phase5)    │  │  │
-│  │  └──────────────────┘  └──────────────────┘  │  │
+│  │  ┌──────────────────┐                        │  │
+│  │  │ 网易云适配器      │                        │  │
+│  │  │ NeteaseAdapter   │                        │  │
+│  │  │ (基于Enhanced版)  │                        │  │
+│  │  └──────────────────┘                        │  │
 │  └───────────────────────────────────────────────┘  │
 │                       │                            │
 │  ┌────────────────────▼─────────────────────────┐  │
@@ -498,13 +469,29 @@ GET /api/play/url?id=xxx
       code: 200,
       data: {
         url: "https://...",
-        source: "netease",   // 或 "qqmusic"
+        source: "netease",
         isVip: false,
         br: 320000
       }
     }
-  → 如果网易云无可用URL，自动尝试QQ音乐
-  → 如果都无: { code: 404, message: "暂无音源" }
+  → VIP歌曲返回 { isVip: true }，前端标记👑
+  → 无可用URL: { code: 404, message: "暂无音源" }
+```
+
+#### 歌词
+
+```
+GET /api/lyric?id=xxx
+  → 获取歌词
+  → Response: {
+      code: 200,
+      data: {
+        lyric: "[00:00.00]...",
+        tlyric: "[00:00.00]...",  // 翻译（可选）
+        lyricType: "synced" | "plain"
+      }
+    }
+  → 缓存6小时
 ```
 
 #### 工具接口
@@ -512,15 +499,15 @@ GET /api/play/url?id=xxx
 ```
 GET /api/eras
   → 获取可用年代列表
-  → Response: { code: 200, data: ["1970","1975","1980","1985","1990","1995","2000"] }
+  → Response: { code: 200, data: ["1970","1980","1990","2000","2010","2020"] }
 
 GET /api/regions
   → 获取可用地区列表
-  → Response: { code: 200, data: [{id:"western",name:"欧美"},{id:"hk",name:"香港"},{id:"mainland",name:"大陆"}] }
+  → Response: { code: 200, data: [{id:"western",name:"欧美"},{id:"hk",name:"香港"},{id:"mainland",name:"大陆"},{id:"taiwan",name:"台湾"},{id:"japan",name:"日本"},{id:"korea",name:"韩国"}] }
 
 GET /api/genres
   → 获取可用风格列表
-  → Response: { code: 200, data: [{id:"mix",name:"Mix",icon:"🎲"},{id:"rock",name:"摇滚",icon:"🎸"},...] }
+  → Response: { code: 200, data: [{id:"mix",name:"Mix",icon:"🎲"},{id:"rock",name:"摇滚",icon:"🎸"},{id:"folk",name:"民谣",icon:"🎻"},{id:"pop",name:"流行",icon:"🎤"},{id:"rnb",name:"R&B",icon:"🎶"},{id:"electronic",name:"电子",icon:"🎹"},{id:"classical",name:"古典",icon:"🎼"},{id:"hiphop",name:"嘻哈",icon:"🎧"},{id:"jazz",name:"爵士",icon:"🎺"}] }
 ```
 
 ---
@@ -533,19 +520,17 @@ GET /api/genres
 {
   "Song": {
     "id": "string",          // 平台歌曲ID
-    "platform": "string",    // "netease" | "qqmusic"
+    "platform": "string",    // "netease"
     "title": "string",       // 歌曲名
     "artist": "string",      // 歌手名
     "artistId": "string",    // 歌手平台ID
     "album": "string",       // 专辑名
     "year": "number",        // 发行年份
-    "era": "string",         // 归属年代 "1970"|"1975"|...|"2000"
-    "region": "string",      // "western"|"hk"|"mainland"
-    "genre": "string",       // "rock"|"folk"|"pop"|"rnb"|"electronic"
     "duration": "number",    // 时长(ms)
     "isVip": "boolean",      // 是否VIP歌曲
     "coverUrl": "string",   // 封面图URL
-    "genreTag": "string"     // 风格标签emoji "🎸"|"🎻"|"🎤"|"🎶"|"🎹"
+    "genreTag": "string",    // 风格标签emoji
+    "weight": "number"       // 推荐权重 1-10，默认5
   }
 }
 ```
@@ -626,22 +611,17 @@ GET /api/genres
 | 12 | `1990-hk-pop` | 四大天王 |
 | 13 | `1990-mainland-rock` | 崔健/黑豹/唐朝，大陆摇滚黄金期 |
 
-#### 5.2.3 年代×地区×风格矩阵（数据密度参考）
+#### 5.2.3 当前数据状态
 
-> 以下矩阵用于指导数据填充优先级，★越多表示该格子越容易找到足够经典歌曲。
+> 使用 auto-fill.js 通过歌单搜索批量填充，覆盖全部 slot。
 
-| 年代 | 欧美 | 香港 | 大陆 |
-|------|------|------|------|
-| 1970 | 摇滚★★★★★ / 流行★★★★ / R&B★★★★ / 民谣★★★ / 电子★ | 流行★★★★ / 其他★ | 流行★★ / 其他☆ |
-| 1975 | 摇滚★★★★★ / 流行★★★★ / R&B★★★★ / 民谣★★★★ / 电子★★ | 流行★★★★ / 其他★ | 流行★★ / 其他☆ |
-| 1980 | 摇滚★★★★★ / 流行★★★★★ / R&B★★★★ / 民谣★★★ / 电子★★★ | 流行★★★★★ / 摇滚★★ / 其他★ | 流行★★★ / 摇滚★ / 其他☆ |
-| 1985 | 摇滚★★★★★ / 流行★★★★ / R&B★★★★ / 民谣★★★ / 电子★★★ | 流行★★★★★ / 摇滚★★ / 其他★★ | 流行★★★ / 摇滚★★ / 民谣★ |
-| 1990 | 摇滚★★★★★ / 流行★★★★★ / R&B★★★★ / 民谣★★★★ / 电子★★★ | 流行★★★★★ / 摇滚★★★ / 其他★★ | 流行★★★★ / 摇滚★★★ / 民谣★★ |
-| 1995 | 摇滚★★★★ / 流行★★★★★ / R&B★★★★★ / 民谣★★★ / 电子★★★★ | 流行★★★★★ / 摇滚★★★ / 其他★★ | 流行★★★★ / 摇滚★★★ / 民谣★★ |
-| 2000 | 摇滚★★★★ / 流行★★★★★ / R&B★★★★★ / 民谣★★★★ / 电子★★★★★ | 流行★★★★★ / 摇滚★★★ / 其他★★★ | 流行★★★★★ / 摇滚★★★★ / 民谣★★★ |
-
-> ★★★★★ = 可轻松找到10首以上经典  
-> ☆ = 几乎无对应作品，该格子将标记为空，前端自动隐藏该风格标签
+| 指标 | 值 |
+|------|-----|
+| 总 slot 数 | 288（6 eras × 6 regions × 8 genres） |
+| 已填充 slot | 288（100%） |
+| 活跃歌曲总数 | 4262 首 |
+| 候补歌曲总数 | 783 首 |
+| 每年代歌曲数 | ~700 首（1970s: 719, 1980s: 709, 1990s: 699, 2000s: 695, 2010s: 720, 2020s: 720） |
 
 ### 5.3 启动时验证机制
 
@@ -697,35 +677,67 @@ GET /api/genres
 | 应用日志 | `server/logs/` | 保留最近30天，自动删除早于30天的文件 |
 | 工具脚本临时文件 | 无 | 不产生临时文件 |
 
-### 5.4 Mix模式算法
+### 5.4 加权随机推荐算法
 
 ```javascript
-function generateMixList(slots, era, region) {
-  // 从该年代×地区下所有风格的 active 列表中取歌
-  const allSongs = [];
-  for (const [key, slot] of Object.entries(slots)) {
-    if (slot.era === era && slot.region === region && slot.active) {
-      allSongs.push(...slot.active.map(s => ({ ...s, genre: slot.genre })));
+function _weightedRandomSelect(pool, count, { maxPerArtist = 2, minYearSpread = 3 } = {}) {
+  // 1. 构建抽奖池：每首歌按 weight 值出现对应次数
+  const lottery = [];
+  for (const song of pool) {
+    const tickets = song.weight || 5;
+    for (let i = 0; i < tickets; i++) lottery.push(song);
+  }
+
+  // 2. 贪心随机选取，满足约束
+  const selected = [];
+  const artistCount = new Map();
+  const years = new Set();
+
+  while (selected.length < count && lottery.length > 0) {
+    const idx = Math.floor(Math.random() * lottery.length);
+    const song = lottery[idx];
+
+    const artistCnt = artistCount.get(song.artist) || 0;
+    if (artistCnt >= maxPerArtist) {
+      // 移除该歌手所有抽奖票
+      lottery.splice(idx, 1);
+      continue;
+    }
+
+    selected.push(song);
+    artistCount.set(song.artist, (artistCount.get(song.artist) || 0) + 1);
+    if (song.year) years.add(song.year);
+
+    // 移除该歌曲所有抽奖票
+    for (let i = lottery.length - 1; i >= 0; i--) {
+      if (lottery[i].id === song.id) lottery.splice(i, 1);
     }
   }
 
-  // 每个风格最多取2首
-  const byGenre = groupBy(allSongs, 'genre');
-  const selected = [];
-  for (const [genre, songs] of Object.entries(byGenre)) {
-    selected.push(...songs.slice(0, 2));
-  }
+  // 3. 后处理 swap 优化年份分散度
+  // ...
 
-  // 补足10首（如果风格数<5）
-  if (selected.length < 10) {
-    const selectedIds = new Set(selected.map(s => s.id));
-    const remaining = allSongs
-      .filter(s => !selectedIds.has(s.id));
-    selected.push(...remaining.slice(0, 10 - selected.length));
-  }
+  // 4. Fisher-Yates 打乱
+  return _shuffle(selected);
+}
 
-  // 随机打乱顺序
-  return shuffle(selected.slice(0, 10));
+function getSongs(era, region, genre) {
+  if (genre === 'mix') return _generateMix(era, region);
+  const slot = slots[`${era}-${region}-${genre}`];
+  return _weightedRandomSelect(slot.active, 30);
+}
+
+function _generateMix(era, region) {
+  // 每 genre 最多取4首，加权随机共30首
+  const allSongs = [];
+  for (const genre of GENRES) {
+    const slot = slots[`${era}-${region}-${genre}`];
+    if (slot?.active?.length) {
+      const picked = _weightedRandomSelect(slot.active, 4);
+      allSongs.push(...picked);
+    }
+  }
+  return _weightedRandomSelect(allSongs, 30);
 }
 ```
 
@@ -751,13 +763,8 @@ function generateMixList(slots, era, region) {
 │    ├─ 返回有效URL → 缓存+返回│
 │    ├─ VIP限制(freeTrialInfo) │
 │    │   → 标记isVip=true     │
-│    │   → 尝试QQ音乐源       │
 │    └─ 无URL(null)            │
-│        → 尝试QQ音乐源       │
-│                             │
-│ 3. QQ音乐源(Phase5)         │
-│    ├─ 返回有效URL → 缓存+返回│
-│    └─ 也无 → 返回404        │
+│        → 返回404            │
 └─────────────────────────────┘
 ```
 
@@ -810,11 +817,9 @@ class Player {
 | 情况 | 前端行为 | 后端行为 |
 |------|---------|---------|
 | 网易云返回完整URL | 正常播放 | 返回 `{source:"netease", isVip:false}` |
-| 网易云返回VIP试听 | Toast提示+标记👑 | 检测`freeTrialInfo`，触发Mock降级源 |
-| 网易云无版权 | 自动尝试Mock降级源 | 触发Mock降级源 |
-| Mock降级源（Phase 3） | 显示Toast"已切换QQ音乐源" | 返回另一首可播的非VIP歌曲URL `{source:"qqmusic", url:"..."}` |
-| QQ音乐真实源（Phase 5） | 正常播放 | 调用QQ音乐API获取真实播放链接 |
-| 全部无音源 | Toast"暂无音源"+1.5秒后跳下一首 | 返回 `{code:404}` |
+| 网易云返回VIP试听 | Toast提示+标记👑 | 返回 `{isVip:true}`，不降级切换 |
+| 网易云无版权/404 | 1.5秒后自动跳下一首 | 返回 `{code:404}` |
+| 全部无音源 | Toast"暂无音源"+跳下一首 | 返回 `{code:404}` |
 
 ### 6.4 错误处理与日志
 
@@ -1076,16 +1081,16 @@ music-time-machine/
 │   │   ├── auth.js                    # 登录/二维码/状态/退出
 │   │   ├── songs.js                   # 歌曲列表查询
 │   │   ├── play.js                    # 播放URL获取
-│   │   └── meta.js                    # 年代/地区/风格元数据
+│   │   ├── meta.js                    # 年代/地区/风格元数据
+│   │   └── lyric.js                   # 歌词获取（缓存6小时）
 │   │
 │   ├── services/                      # 业务服务
-│   │   ├── curator.js                 # 策展数据加载+启动验证+Mix组合
-│   │   └── cache.js                   # 内存缓存(验证结果+播放URL)
+│   │   ├── curator.js                 # 策展数据加载+加权随机推荐
+│   │   └── cache.js                   # 内存缓存(播放URL+歌词+详情)
 │   │
 │   ├── sources/                       # 音源适配器
 │   │   ├── base.js                    # 适配器基类(接口定义)
-│   │   ├── netease.js                 # 网易云适配器（含Cookie管理）
-│   │   └── qqmusic.js                 # QQ音乐适配器（vkey→CDN URL完整链路）
+│   │   └── netease.js                 # 网易云适配器（含Cookie管理+歌词）
 │   │
 │   └── utils/                         # 工具函数
 │       ├── logger.js                  # 日志
@@ -1103,22 +1108,22 @@ music-time-machine/
 │       └── tunnel.js                  # 星际隧道Canvas动画（纯视觉层）
 │
 ├── data/                              # 策展数据目录
-│   ├── songs.json                     # 策展歌曲数据集(主文件，336个slot)
+│   ├── songs.json                     # 策展歌曲数据集(主文件，288个slot)
 │   └── backups/                       # 自动备份（最多保留10份）
 │
 ├── test/                              # 测试
 │   ├── unit/                          # 单元测试（schema, cache, rateLimiter, curator, store）
-│   └── integration/                   # 集成测试（routes: meta, songs, auth, play）
+│   └── integration/                   # 集成测试（routes: meta, songs, auth, play, lyric）
 │
 ├── scripts/                           # 数据工具脚本
 │   ├── core/                          # 核心共享逻辑
 │   │   ├── schema.js                  # 共享常量+slot key解析（唯一来源）
 │   │   ├── store.js                   # songs.json读写+备份+mergeSlots
 │   │   └── api.js                     # 网易云API封装（搜索+验证+重试+限速）
-│   ├── bulk-fill.js                   # 批量填充脚本
-│   ├── search-helper.js               # 歌曲ID搜索辅助(调用core/api.js)
+│   ├── auto-fill.js                   # 歌单搜索自动填充（主力填充工具）
+│   ├── bulk-fill.js                   # 批量搜索填充脚本
 │   ├── validate.js                    # 数据验证(使用core/模块)
-│   └── fill-template.js               # 空格子模板生成器
+│   └── add-weights.js                # 添加权重字段脚本
 │
 ├── ecosystem.config.js                # PM2生产部署配置
 ```
@@ -1151,7 +1156,7 @@ music-time-machine/
 | 定义songs.json Schema | data/songs.json 结构定义 | JSON可被validate.js校验通过 |
 | 实现数据加载器 | server/services/curator.js | 读取JSON→验证→内存缓存 |
 | 实现启动时验证 | server/services/curator.js | 失效歌曲自动替换，空格标记 |
-| 实现Mix组合逻辑 | server/services/curator.js | 跨风格随机组合10首 |
+| 实现Mix组合逻辑 | server/services/curator.js | 跨风格加权随机组合30首 |
 | 修改歌曲列表API | server/routes/songs.js | 从策展数据返回而非引擎 |
 | 搜索辅助脚本 | scripts/search-helper.js | 输入歌名+歌手→输出网易云ID候选 |
 | 验证脚本 | scripts/validate.js | 检查JSON完整性+歌曲有效性 |
@@ -1169,10 +1174,10 @@ music-time-machine/
 | 星际隧道Canvas动画 | js/tunnel.js | 星空粒子+光带流动 |
 | 光带颜色随年代变化 | js/tunnel.js | 7种年代配色 |
 | 登录页UI | style.css + app.js | 二维码显示+扫码跳转 |
-| 时间滑块 | style.css + app.js | 5年一格，拖拽/点击 |
+| 时间滑块 | style.css + app.js | 10年一格，拖拽/点击 |
 | 地区Tab | app.js | 欧美/香港/大陆切换 |
 | 风格Chip(含Mix) | app.js | 6个Chip切换 |
-| 歌曲列表 | style.css + app.js | 10首歌+风格标签 |
+| 歌曲列表 | style.css + app.js | 最多30首歌+风格标签 |
 | 底部播放器 | style.css + player.js | 进度条+音量+播放暂停 |
 | VIP标记与提示 | player.js | 👑标记+Toast提示 |
 | VIP切源Mock | player.js + play.js | VIP歌曲提示"切换音源"后播放备份歌曲 |
@@ -1196,20 +1201,31 @@ music-time-machine/
 
 **Phase 4 交付物**: 可交付的开源项目
 
-### Phase 5: 扩展增强 + 测试 + 部署 ✅
+### Phase 5: v0.1.0 扩展增强 + 测试 + 部署 ✅
 
 | 任务 | 状态 | 说明 |
 |------|------|------|
-| QQ音乐音源真实接入 | ✅ | 搜索→songmid→vkey→CDN URL完整链路，含地域检测自动降级 |
-| 年代二级选择器 | ✅ | 5年格下方精确年份按钮（如1980→1980-1984子选择） |
 | 地区扩展 | ✅ | 全部6个地区：欧美/香港/大陆/台湾/日本/韩国 |
 | 风格扩展 | ✅ | 全部9个风格：Mix/摇滚/民谣/流行/R&B/电子/古典/嘻哈/爵士 |
 | 策展数据填充 | ✅ | 336个slot全部10首歌，含自动验证+替补池 |
 | 代码审查修复 | ✅ | 2 P0 bugs + 3 P1 issues + 4 P2 improvements |
-| 测试覆盖 | ✅ | 63个测试（43 unit + 20 integration），89%+行覆盖率 |
+| 测试覆盖 | ✅ | 63个测试，89%+行覆盖率 |
 | macOS本地生产部署 | ✅ | PM2进程管理 + launchd开机自启，端口3000 |
-| Cookie管理修复 | ✅ | checkQrStatus保存cookie→song_url_v1携带cookie，VIP完整播放 |
+| Cookie管理修复 | ✅ | checkQrStatus保存cookie→song_url_v1携带cookie |
 | scripts/core/抽取 | ✅ | schema.js/store.js/api.js共享逻辑，消除脚本间重复 |
+
+### Phase 6: v0.2.0 架构简化 + 数据扩充 + 歌词 ✅
+
+| 任务 | 状态 | 说明 |
+|------|------|------|
+| 去QQ音乐 | ✅ | 删除 qqmusic.js，简化回退链路，VIP直接返回isVip标记 |
+| 年代十年节点化 | ✅ | 5年格→10年格，1970/1980/1990/2000/2010/2020共6个年代 |
+| 删除二级年份选择器 | ✅ | 简化UX，选年代直接展示加权随机30首 |
+| 加权随机推荐 | ✅ | 权重抽奖池+同歌手≤2首+跨年份分散+Fisher-Yates打乱 |
+| 数据池扩充 | ✅ | auto-fill.js歌单搜索，288 slots全部填充，4262首活跃歌曲 |
+| 歌词显示 | ✅ | 单行滚动栏+点击展开全屏面板，实时高亮，缓存6小时 |
+| 播放修复 | ✅ | Audio元素重置+竞态保护(_playSeq)，消除首次点击播放失败 |
+| 年代配色更新 | ✅ | 6种配色方案：深红/霓虹粉/电蓝/暖橙/银蓝/银白 |
 
 ---
 
@@ -1261,27 +1277,27 @@ music-time-machine/
 | 11 | 启动方式 | 双击脚本→后端→自动开浏览器 | 2025-07 |
 | 12 | 离线模式 | 不支持 | 2025-07 |
 | 13 | 收藏/历史 | 不做 | 2025-07 |
-| 14 | Mix模式 | 默认选中，跨风格随机组合10首，显示风格标签 | 2025-07 |
+| 14 | Mix模式 | v0.1.0: 每风格2首共10首 → v0.2.0: 每风格最多4首，加权随机30首 | 2025-07 / 2026-05更新 |
 | 15 | 网易云API集成 | 子模块引入（后改用npm包） | 2025-07 |
-| 16 | 风控评估结论 | 正常听歌(每天2-3次登录)属中低风险；不做"建议小号"；三层防护体系；递进式封号非一步到位 | 2025-07 |
-| 17 | 数据方案 | 放弃AI归类引擎，改用策展数据（JSON预填+启动验证+替补池） | 2025-07 |
-| 18 | 歌曲ID获取 | 混合方案：高密度格子手动确认，中等格子半自动+抽检，低频格子脚本批量+置信度标注 | 2025-07 |
+| 16 | 风控评估结论 | 正常听歌(每天2-3次登录)属中低风险；三层防护；递进式封号非一步到位 | 2025-07 |
+| 17 | 数据方案 | 放弃AI归类引擎，改用策展数据（JSON预填+歌单搜索自动填充+替补池） | 2025-07 |
+| 18 | 歌曲ID获取 | v0.2.0改为auto-fill.js歌单搜索（type=1000），效率远高于逐首搜索 | 2026-05更新 |
 | 19 | 歌曲失效处理 | 启动时验证+替补池自动顶入+数据不足坦诚提示，不回退到实时搜索 | 2025-07 |
-| 20 | 前端文件组织 | 前期合并文件（CSS 7→1, JS 6→3），Phase 4稳定后视需拆分 | 2025-07 |
-| 21 | 开发周期 | 每个Phase增加1-2天缓冲，总周期10-13天→15天（约3周） | 2025-07 |
-| 22 | QQ音乐源 | Phase 3先做Mock降级验证体验，Phase 5做真实接入 | 2025-07 |
+| 20 | 前端文件组织 | CSS/JS按功能合并为单文件，保持简洁 | 2025-07 |
+| 21 | 年代范围 | v0.2.0从7个5年格(1970-2000)→6个10年格(1970-2020)，更广覆盖 | 2026-05更新 |
+| 22 | QQ音乐源 | v0.2.0已移除。回退链路实际未被触发，网易云曲库已覆盖绝大部分经典 | 2025-07 / 2026-05废弃 |
 | 23 | 浏览器兼容 | 播放全量绑定用户手势，Safari自动播放限制不做额外适配 | 2025-07 |
-| 24 | Cookie管理 | checkQrStatus(code=803)→保存res.body.cookie→song_url_v1携带cookie，VIP用户可完整播VIP歌曲 | 2026-05 |
-| 25 | 测试框架 | Node.js内置node:test（零依赖），supertest做HTTP集成测试，依赖注入+工厂模式支持测试隔离 | 2026-05 |
+| 24 | Cookie管理 | checkQrStatus(code=803)→保存res.body.cookie→song_url_v1携带cookie | 2026-05 |
+| 25 | 测试框架 | Node.js内置node:test（零依赖），supertest做HTTP集成测试，依赖注入+工厂模式 | 2026-05 |
 | 26 | 生产部署 | macOS用PM2进程管理+launchd开机自启，ecosystem.config.js控制内存上限200M | 2026-05 |
-| 27 | scripts/core抽取 | schema/store/api三个共享模块消除bulk-fill/validate/search-helper间重复，SLOT_KEY_RE动态生成 | 2026-05 |
-| 28 | QQ音乐接入策略 | 直接HTTPS调用QQ音乐公开API(search→songmid→vkey→CDN URL)，含地域检测(中国IP白名单)自动降级 | 2026-05 |
-| 29 | 搜索结果统一 | search-helper.js改用core/api.js的searchCandidates()，消除两份搜索逻辑 | 2026-05 |
-| 30 | 去掉QQ音乐 | QQ回退链路实际未被触发，网易云曲库已覆盖绝大部分经典歌曲，去掉简化代码和测试 | 2026-05 |
-| 31 | 年代选择简化 | 删除二级年份选择器，选年代直接展示该5年范围内随机30首歌；切换年代/风格重新随机 | 2026-05 |
-| 32 | 推荐算法 | 加权随机：策展池50-100首/格，按热度权重随机抽30首，多样性约束(同歌手≤2首、跨年份覆盖) | 2026-05 |
-| 33 | Header注入 | 后续版本迭代，当前不做。正常VIP使用切换年代/曲风不会触发风控，封号风险仅来自登录环节 | 2026-05 |
-| 34 | 只读降级/ CookieCloud | 不做。项目定位为VIP深度用户的个性化听歌工具，无VIP账号直接使用官方App即可 | 2026-05 |
+| 27 | scripts/core抽取 | schema/store/api三个共享模块，SLOT_KEY_RE动态生成 | 2026-05 |
+| 28 | 数据池扩充 | auto-fill.js通过歌单搜索(era+region+genre组合词)批量填充，288 slots全满 | 2026-05 |
+| 29 | 年代选择简化 | 删除二级年份选择器，选年代直接加权随机30首；每次切换重新随机 | 2026-05 |
+| 30 | 推荐算法 | 加权随机抽奖池(weight=1-10)+同歌手≤2首约束+年份分散度swap优化+Fisher-Yates打乱 | 2026-05 |
+| 31 | 歌词显示 | 单行滚动栏(常驻)+点击展开全屏面板(overlay)+自动预加载+实时高亮 | 2026-05 |
+| 32 | 台湾标识 | 使用中华人民共和国国旗🇨🇳 | 2026-05 |
+| 33 | 播放竞态保护 | Audio元素完整重置(pause→removeAttribute→load)+_playSeq序列号，消除首次点击失败 | 2026-05 |
+| 34 | lyrics API | 使用api.lyric传统格式([mm:ss]text)而非api.lyric_new的JSON格式，前端parseLyric兼容 | 2026-05 |
 
 ### 12.2 NeteaseCloudMusicApi关键端点
 
@@ -1301,15 +1317,14 @@ music-time-machine/
 
 ### 12.3 年代配色方案
 
-| 年代 | 主色 | 辅色 | CSS变量 |
-|------|------|------|---------|
-| 1970 | #E8833A | #8B5E3C | `--era-primary`, `--era-secondary` |
-| 1975 | #C62828 | #FFB300 | |
-| 1980 | #FF1493 | #7B68EE | |
-| 1985 | #00BFFF | #9400D3 | |
-| 1990 | #1A237E | #00C853 | |
-| 1995 | #90CAF9 | #E0E0E0 | |
-| 2000 | #F5F5F5 | #B3E5FC | |
+| 年代 | 主色 | CSS变量 |
+|------|------|---------|
+| 1970 | #C62828 | `--era-primary` |
+| 1980 | #FF1493 | |
+| 1990 | #00BFFF | |
+| 2000 | #E8833A | |
+| 2010 | #90CAF9 | |
+| 2020 | #F5F5F5 | |
 
 ### 12.4 测试策略
 
@@ -1324,31 +1339,28 @@ music-time-machine/
 
 ```
 test/
-├── unit/                          # 43 tests — 纯函数/算法
+├── unit/                          # 47 tests — 纯函数/算法
 │   ├── schema.test.js             # 10 tests: parseSlotKey, formatSlotKey, SLOT_KEY_RE, 常量
 │   ├── cache.test.js              # 12 tests: set/get/ttl/has/delete/clear
 │   ├── rateLimiter.test.js        # 6 tests: token bucket + middleware
-│   ├── curator.test.js            # 8 tests: getSongs, _generateMix (genre capping, max 10)
+│   ├── curator.test.js            # 12 tests: getSongs, _generateMix, _weightedRandomSelect
 │   └── store.test.js              # 7 tests: mergeSlots (add/new/overwrite/immutable)
-├── integration/                   # 20 tests — Express路由层
+├── integration/                   # 26 tests — Express路由层
 │   ├── routes-meta.test.js        # 3 tests: eras/regions/genres
-│   ├── routes-songs.test.js       # 5 tests: valid query, year filter, mix, 400, empty
+│   ├── routes-songs.test.js       # 4 tests: valid query, mix, 400, empty
 │   ├── routes-auth.test.js        # 5 tests: QR flow (key/create/check/status)
-│   └── routes-play.test.js        # 7 tests: netease/QQ fallback/cache/404/400/VIP
+│   ├── routes-play.test.js        # 5 tests: netease URL/VIP/404/400/cache
+│   └── routes-lyric.test.js       # 6 tests: synced/plain/404/400/cache/500
 ```
 
-**覆盖率** (2026-05):
+**测试结果** (2026-05):
 
-| 文件 | 行% | 分支% | 函数% |
-|------|-----|-------|-------|
-| scripts/core/schema.js | 100% | 100% | 100% |
-| server/services/cache.js | 100% | 100% | 100% |
-| server/utils/rateLimiter.js | 100% | 100% | 100% |
-| server/routes/play.js | 95.9% | 73.5% | 100% |
-| server/routes/meta.js | 100% | 100% | 100% |
-| server/routes/songs.js | 93.6% | 91.7% | 100% |
-| server/routes/auth.js | 79.0% | 36.8% | 83.3% |
-| **全部** | **89.5%** | **90.9%** | **92.4%** |
+| 指标 | 值 |
+|------|-----|
+| 测试总数 | 73 |
+| 通过 | 73 |
+| 失败 | 0 |
+| 运行时间 | ~100ms |
 
 运行命令: `node --test test/unit/*.test.js test/integration/*.test.js`
 覆盖率: `node --experimental-test-coverage --test test/unit/*.test.js test/integration/*.test.js`
@@ -1391,5 +1403,5 @@ module.exports = {
 
 ---
 
-> **文档状态**：v2.0  
-> **下一步**：GitHub仓库初始化 → 服务器部署
+> **文档状态**：v0.2.0  
+> **下一步**：UX美化(Phase 5) → Electron桌面应用(Phase 6) → AI功能(Phase 7)

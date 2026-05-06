@@ -18,7 +18,7 @@ class Player {
     this.audio.addEventListener('error', this._onError);
     this.audio.addEventListener('timeupdate', this._onTimeUpdate);
 
-    // Safari 手势解锁
+    this._playSeq = 0;           // 竞态保护
     this._unlockBound = null;
   }
 
@@ -44,9 +44,18 @@ class Player {
 
   async play(song) {
     if (!song) return;
+
+    this.audio.pause();
+    this.audio.removeAttribute('src');
+    this.audio.load();
+
     this.currentSong = song;
+    const seq = ++this._playSeq;
+
     try {
       const res = await fetch(`/api/play/url?id=${song.id}`);
+      if (seq !== this._playSeq) return;  // 已被新请求覆盖
+
       const data = await res.json();
 
       if (data.code === 404 || !data.data || !data.data.url) {
@@ -61,11 +70,12 @@ class Player {
 
       this.audio.src = data.data.url;
       await this.audio.play();
+      if (seq !== this._playSeq) return;  // 播放期间被覆盖
       this.isPlaying = true;
       this._emitState();
     } catch (err) {
-      if (err.name === 'NotAllowedError') {
-        // Safari 阻止自动播放，静默等待用户手势
+      if (seq !== this._playSeq) return;
+      if (err.name === 'NotAllowedError' || err.name === 'AbortError') {
         this.isPlaying = false;
         this._emitState();
         return;

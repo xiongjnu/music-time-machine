@@ -57,6 +57,11 @@ class NeteaseAdapter extends SourceAdapter {
     const res = await api.song_url_v1({ id: String(id), level: 'exhigh', cookie: this.cookie });
     return res.body;
   }
+
+  async getLyric(id) {
+    const res = await api.lyric({ id: String(id) });
+    return res.body;
+  }
 }
 
 module.exports = { NeteaseAdapter };

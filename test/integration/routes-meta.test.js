@@ -11,13 +11,13 @@ describe('Routes — Meta', () => {
   app = express();
   app.use('/api', metaRouter);
 
-  it('GET /api/eras returns 7 eras', async () => {
+  it('GET /api/eras returns 6 eras', async () => {
     const res = await request(app).get('/api/eras');
     assert.strictEqual(res.status, 200);
     assert.strictEqual(res.body.code, 200);
-    assert.strictEqual(res.body.data.length, 7);
+    assert.strictEqual(res.body.data.length, 6);
     assert.ok(res.body.data.includes('1970'));
-    assert.ok(res.body.data.includes('2000'));
+    assert.ok(res.body.data.includes('2020'));
   });
 
   it('GET /api/regions returns 6 regions including new ones', async () => {

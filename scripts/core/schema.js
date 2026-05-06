@@ -3,7 +3,7 @@
  */
 
 // 元数据常量
-const ERAS = ['1970', '1975', '1980', '1985', '1990', '1995', '2000'];
+const ERAS = ['1970', '1980', '1990', '2000', '2010', '2020'];
 const REGIONS = ['western', 'hk', 'mainland', 'taiwan', 'japan', 'korea'];
 const GENRES = ['rock', 'folk', 'pop', 'rnb', 'electronic', 'classical', 'hiphop', 'jazz'];
 

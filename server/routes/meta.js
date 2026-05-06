@@ -5,7 +5,7 @@ const router = express.Router();
  * 元数据路由 — 年代/地区/风格列表
  */
 
-const ERAS = ['1970', '1975', '1980', '1985', '1990', '1995', '2000'];
+const ERAS = ['1970', '1980', '1990', '2000', '2010', '2020'];
 
 const REGIONS = [
   { id: 'western', name: '欧美' },

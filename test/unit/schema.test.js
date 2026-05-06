@@ -56,7 +56,7 @@ describe('schema', () => {
   });
 
   describe('constants', () => {
-    it('ERAS has 7 entries', () => assert.strictEqual(ERAS.length, 7));
+    it('ERAS has 6 entries', () => assert.strictEqual(ERAS.length, 6));
     it('REGIONS has 6 entries', () => assert.strictEqual(REGIONS.length, 6));
     it('GENRES has 8 entries', () => assert.strictEqual(GENRES.length, 8));
     it('REQUIRED_FIELDS includes id, platform, title, artist, genreTag, weight', () => {

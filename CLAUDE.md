@@ -39,7 +39,7 @@ musictm/
 ├── scripts/         # 数据工具脚本
 │   └── core/        # 核心库（schema, api, store）
 ├── test/            # 测试
-│   ├── unit/        # 单元测试（63 tests）
+│   ├── unit/        # 单元测试（47 tests）
 │   └── integration/ # 集成测试
 ├── electron/        # Electron 桌面应用
 └── DEVELOPMENT.md   # 完整开发文档
