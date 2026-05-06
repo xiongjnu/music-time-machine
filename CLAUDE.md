@@ -13,6 +13,17 @@
 - 安装：`npm install`
 - 运行：`./start.sh`（Mac）或 `start.bat`（Windows）
 - 开发：`node server/index.js` 启动后端，浏览器打开 `client/index.html`
+- 测试：`node --test test/unit/*.test.js test/integration/*.test.js`
+- 覆盖率：`node --test --experimental-test-coverage test/unit/*.test.js test/integration/*.test.js`
+
+## 部署
+
+- PM2 生产部署：`pm2 start ecosystem.config.js`
+- 开机自启：`pm2 startup` → 执行提示命令 → `pm2 save`
+
+## 仓库
+
+https://github.com/xiongjnu/music-time-machine
 
 ## 目录结构
 
@@ -26,5 +37,10 @@ musictm/
 │   └── utils/       # 工具函数
 ├── data/            # 策展数据
 ├── scripts/         # 数据工具脚本
+│   └── core/        # 核心库（schema, api, store）
+├── test/            # 测试
+│   ├── unit/        # 单元测试（63 tests）
+│   └── integration/ # 集成测试
+├── electron/        # Electron 桌面应用
 └── DEVELOPMENT.md   # 完整开发文档
 ```
