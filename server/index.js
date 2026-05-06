@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const { NeteaseAdapter } = require('./sources/netease');
-const { QQMusicAdapter } = require('./sources/qqmusic');
 const { rateLimitMiddleware } = require('./utils/rateLimiter');
 const { logger } = require('./utils/logger');
 const { Curator } = require('./services/curator');
@@ -12,9 +11,8 @@ const PORT = process.env.PORT || 3000;
 /**
  * 创建 Express 应用实例（可测试，无副作用）
  */
-async function createApp({ adapter, qqAdapter, curator, cache } = {}) {
+async function createApp({ adapter, curator, cache } = {}) {
   const netease = adapter || new NeteaseAdapter();
-  const qq = qqAdapter || new QQMusicAdapter();
   const cur = curator || new Curator();
   const cch = cache || new Cache();
 
@@ -38,7 +36,7 @@ async function createApp({ adapter, qqAdapter, curator, cache } = {}) {
   // 挂载路由
   app.use('/api/auth', require('./routes/auth')(netease));
   app.use('/api/songs', require('./routes/songs')(cur));
-  app.use('/api/play', require('./routes/play')(netease, qq, cch));
+  app.use('/api/play', require('./routes/play')(netease, cch));
   app.use('/api', require('./routes/meta'));
 
   // 前端错误上报

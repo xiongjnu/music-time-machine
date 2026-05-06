@@ -6,13 +6,10 @@ const express = require('express');
 describe('Routes — Play', () => {
   let app;
   let mockNetease;
-  let mockQQ;
   let mockCache;
-  let qqShouldFail;
   let cacheHit = null;
 
   beforeEach(() => {
-    qqShouldFail = false;
     cacheHit = null;
 
     mockNetease = {
@@ -27,20 +24,6 @@ describe('Routes — Play', () => {
       },
     };
 
-    mockQQ = {
-      getPlayUrl: async (id) => {
-        if (qqShouldFail) return null;
-        if (id === 'qq-ok' || id === 'vip-song') {
-          return { url: 'https://qq.music.com/song.m4a', source: 'qqmusic', isVip: false, br: 0 };
-        }
-        return null;
-      },
-      search: async () => {
-        if (qqShouldFail) return [];
-        return [{ id: 'qq-ok', mid: 'abc123' }];
-      },
-    };
-
     mockCache = {
       getPlayUrl: () => (cacheHit),
       setPlayUrl: () => {},
@@ -48,7 +31,7 @@ describe('Routes — Play', () => {
 
     const playFactory = require('../../server/routes/play');
     app = express();
-    app.use('/api/play', playFactory(mockNetease, mockQQ, mockCache));
+    app.use('/api/play', playFactory(mockNetease, mockCache));
   });
 
   it('returns netease URL for normal song', async () => {
@@ -59,22 +42,15 @@ describe('Routes — Play', () => {
     assert.ok(res.body.data.url);
   });
 
-  it('falls back to QQ for VIP song', async () => {
-    const res = await request(app).get('/api/play/url?id=vip-song&title=Test&artist=Artist');
+  it('returns VIP URL for VIP song', async () => {
+    const res = await request(app).get('/api/play/url?id=vip-song');
     assert.strictEqual(res.status, 200);
-    assert.strictEqual(res.body.data.source, 'qqmusic');
-    assert.ok(res.body.data.url.includes('qq'));
+    assert.strictEqual(res.body.data.source, 'netease');
+    assert.strictEqual(res.body.data.isVip, true);
   });
 
-  it('falls back to QQ when netease has no URL', async () => {
-    const res = await request(app).get('/api/play/url?id=no-url&title=Test&artist=Artist');
-    assert.strictEqual(res.status, 200);
-    assert.strictEqual(res.body.data.source, 'qqmusic');
-  });
-
-  it('returns 404 when all sources fail', async () => {
-    qqShouldFail = true;
-    const res = await request(app).get('/api/play/url?id=no-url&title=Test&artist=Artist');
+  it('returns 404 when netease has no URL', async () => {
+    const res = await request(app).get('/api/play/url?id=no-url');
     assert.strictEqual(res.body.code, 404);
   });
 
@@ -88,13 +64,5 @@ describe('Routes — Play', () => {
     const res = await request(app).get('/api/play/url?id=cached-song');
     assert.strictEqual(res.status, 200);
     assert.strictEqual(res.body.data.source, 'cache');
-  });
-
-  it('returns netease VIP URL when QQ fallback also fails', async () => {
-    qqShouldFail = true;
-    const res = await request(app).get('/api/play/url?id=vip-song&title=Test&artist=Artist');
-    assert.strictEqual(res.status, 200);
-    assert.strictEqual(res.body.data.source, 'netease');
-    assert.strictEqual(res.body.data.isVip, true);
   });
 });

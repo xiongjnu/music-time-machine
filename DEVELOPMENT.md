@@ -1277,6 +1277,11 @@ music-time-machine/
 | 27 | scripts/core抽取 | schema/store/api三个共享模块消除bulk-fill/validate/search-helper间重复，SLOT_KEY_RE动态生成 | 2026-05 |
 | 28 | QQ音乐接入策略 | 直接HTTPS调用QQ音乐公开API(search→songmid→vkey→CDN URL)，含地域检测(中国IP白名单)自动降级 | 2026-05 |
 | 29 | 搜索结果统一 | search-helper.js改用core/api.js的searchCandidates()，消除两份搜索逻辑 | 2026-05 |
+| 30 | 去掉QQ音乐 | QQ回退链路实际未被触发，网易云曲库已覆盖绝大部分经典歌曲，去掉简化代码和测试 | 2026-05 |
+| 31 | 年代选择简化 | 删除二级年份选择器，选年代直接展示该5年范围内随机30首歌；切换年代/风格重新随机 | 2026-05 |
+| 32 | 推荐算法 | 加权随机：策展池50-100首/格，按热度权重随机抽30首，多样性约束(同歌手≤2首、跨年份覆盖) | 2026-05 |
+| 33 | Header注入 | 后续版本迭代，当前不做。正常VIP使用切换年代/曲风不会触发风控，封号风险仅来自登录环节 | 2026-05 |
+| 34 | 只读降级/ CookieCloud | 不做。项目定位为VIP深度用户的个性化听歌工具，无VIP账号直接使用官方App即可 | 2026-05 |
 
 ### 12.2 NeteaseCloudMusicApi关键端点
 

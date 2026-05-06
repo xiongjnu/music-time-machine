@@ -55,10 +55,8 @@ class Player {
         return;
       }
 
-      if (data.data.isVip && data.data.source === 'netease') {
-        this._toast('网易云VIP歌曲，已切换音源');
-      } else if (data.data.source === 'qqmusic') {
-        // QQ音乐音源成功接入
+      if (data.data.isVip) {
+        this._toast('网易云VIP歌曲');
       }
 
       this.audio.src = data.data.url;
